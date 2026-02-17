@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.176.252.94
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1771359223351
+  login: 1771358895827
+money: '0'
+last-account-name: soulzzzz
+logoutlocation:
+  world: cb51d356-5f14-46b6-a712-d960067e7b85
+  world-name: world
+  x: 404.0934396568179
+  y: 71.0
+  z: -199.87345795458884
+  yaw: 110.970458984375
+  pitch: 88.19993591308594

@@ -1,0 +1,359 @@
+# RankPlugin Configuration
+
+settings:
+  # The default rank assigned to players if no other rank is specified.
+  default_rank: default
+
+discord:
+  # Enable or disable Discord integration.
+  enabled: false
+  # Automatically sync Minecraft ranks to Discord roles.
+  auto_sync: false
+  # Your Discord bot token. Get this from Discord Developer Portal.
+  token: YOUR_DISCORD_BOT_TOKEN_HERE
+  # The ID of your Discord Guild (Server).
+  guild_id: YOUR_DISCORD_GUILD_ID_HERE
+  # The ID of the Discord text channel where plugin logs will be sent.
+  log_channel_id: YOUR_DISCORD_LOG_CHANNEL_ID_HERE
+  # Mapping of Minecraft ranks to Discord Role IDs.
+  # Replace 'YOUR_DISCORD_ROLE_ID_HERE' with actual role IDs.
+  role_mappings:
+    default: YOUR_DISCORD_ROLE_ID_FOR_DEFAULT_RANK
+    vip: YOUR_DISCORD_ROLE_ID_FOR_VIP_RANK
+    pro: YOUR_DISCORD_ROLE_ID_FOR_PRO_RANK
+    mvp: YOUR_DISCORD_ROLE_ID_FOR_MVP_RANK
+    builder: YOUR_DISCORD_ROLE_ID_FOR_BUILDER_RANK
+    legend: YOUR_DISCORD_ROLE_ID_FOR_LEGEND_RANK
+    admin: YOUR_DISCORD_ROLE_ID_FOR_ADMIN_RANK
+    owner: YOUR_DISCORD_ROLE_ID_FOR_OWNER_RANK
+    ban: YOUR_DISCORD_ROLE_ID_FOR_BAN_RANK
+
+economy:
+  # Amount of money given to 'pro' rank players every 2 days.
+  pro_rank_money_amount: 1000.0
+  # Amount of money given to 'mvp' rank players every 2 days.
+  mvp_rank_money_amount: 7000.0
+  # Amount of money given to 'builder' rank players every 2 days.
+  builder_rank_money_amount: 8000.0
+  # Amount of money given to 'legend' rank players every 2 days.
+  legend_rank_money_amount: 15000.0
+
+# Define your ranks here. The key is the rank name (lowercase).
+# prefix: The chat prefix for the rank (supports Minecraft color codes like &a, &b, etc., and hex colors like &#RRGGBB and <#RRGGBB>text<#RRGGBB> for gradients).
+# discord_role_id: The Discord Role ID associated with this Minecraft rank. Used for syncing.
+# temp_duration_minutes: Default duration in minutes for temporary ranks if not specified in command.
+ranks:
+  ban:
+    prefix: '&l&4Banned ' # Removed brackets, added bold
+    discord_role_id: YOUR_DISCORD_ROLE_ID_FOR_BAN_RANK
+    temp_duration_minutes: 0
+  default:
+    prefix: '&l&7Member ' # Removed brackets, added bold
+    discord_role_id: YOUR_DISCORD_ROLE_ID_FOR_DEFAULT_RANK
+    temp_duration_minutes: 0
+  vip:
+    prefix: '&l&aVIP ' # Removed brackets, added bold
+    discord_role_id: YOUR_DISCORD_ROLE_ID_FOR_VIP_RANK
+    temp_duration_minutes: 0
+  pro:
+    prefix: '&l&bPro ' # Removed brackets, added bold
+    discord_role_id: YOUR_DISCORD_ROLE_ID_FOR_PRO_RANK
+    temp_duration_minutes: 0
+  mvp:
+    prefix: '&l&dMVP ' # Removed brackets, added bold
+    discord_role_id: YOUR_DISCORD_ROLE_ID_FOR_MVP_RANK
+    temp_duration_minutes: 0
+  builder:
+    prefix: '&l&eBuilder ' # Removed brackets, added bold
+    discord_role_id: YOUR_DISCORD_ROLE_ID_FOR_BUILDER_RANK
+    temp_duration_minutes: 0
+  legend:
+    prefix: '&l&6Legend ' # Removed brackets, added bold
+    discord_role_id: YOUR_DISCORD_ROLE_ID_FOR_LEGEND_RANK
+    temp_duration_minutes: 0
+  admin:
+    prefix: '&l&cAdmin ' # Removed brackets, added bold
+    discord_role_id: YOUR_DISCORD_ROLE_ID_FOR_ADMIN_RANK
+    temp_duration_minutes: 0
+  owner:
+    prefix: '&l&5Owner ' # Removed brackets, added bold
+    discord_role_id: YOUR_DISCORD_ROLE_ID_FOR_OWNER_RANK
+    temp_duration_minutes: 0
+
+# The order of ranks for promotion/demotion commands.
+# Ensure all ranks defined above are listed here in your desired hierarchy.
+rank_order:
+- default
+- vip
+- pro
+- mvp
+- builder
+- legend
+- admin
+- owner
+- ban
+
+# This section stores player UUIDs and their assigned ranks.
+# It is managed automatically by the plugin. Do not edit manually unless you know what you're doing.
+playerRanks:
+  baa23172-2884-4791-8be8-b709fc054a20: default
+  c8f03623-d077-49d8-b659-9b8196098eaa: default
+  00000000-0000-0000-0009-01f44bc45e30: vip
+  333540fb-22be-421a-ba1b-638e1b1c5eee: default
+  ff0d92a6-f7f5-4fd9-91a4-17bffc3e3bb2: default
+  c957def7-2f35-4877-aee6-b57d18cfa7a7: default
+  ae55e602-040c-4236-87c2-a20204fbcf44: default
+  a778c0ff-8d97-4f5e-9b83-4b3ce7fc4218: default
+  3a6a0e0e-5c3a-4972-b3bb-e90700f04378: default
+  861ab686-9f24-463f-94e2-65d75f31aa9f: default
+  ab7ef194-8008-408e-a945-c0bcb30b0c80: default
+  4b3ff618-7d45-4246-b26d-16583e045236: default
+  a8d5f264-1b9b-4ecb-a408-3ed82b997a8d: default
+  07755535-ef6c-4837-957f-a7ed069d7d31: default
+  208b0d13-858e-415f-a06f-f59f05eb7862: default
+  93d0dff7-8023-44f9-98ef-41ba2abc1020: default
+  00000000-0000-0000-0009-01f43f9c1054: default
+  00000000-0000-0000-0009-01f5c867e9ae: default
+  00000000-0000-0000-0009-000005f9d7c7: owner
+  41e5dae5-b8c3-40c5-a0b1-eed60a216477: default
+  00000000-0000-0000-0009-01f7659bc75e: default
+  47747b85-5bcd-4614-a9e7-d423317b7bab: founder
+  a226e614-bed2-49d7-be0c-d5c08a5bc99d: default
+  94a7ca28-73bc-4c1c-83db-34319aff4d7f: default
+  00000000-0000-0000-0009-01fe033a2884: default
+  df0c851e-be0d-41e3-9da4-99f425b60451: default
+  6c7d72fb-eef7-4f83-8d90-b76b7c5dc21f: default
+  1fb05ede-385b-40ff-a77b-10899d23b356: vip
+  c93be101-35f1-4ad6-a303-3c1a5b7f2734: default
+  5fe3a68b-94d0-42ea-88b0-65002de30652: default
+  00000000-0000-0000-0009-01f08231e49c: default
+  c2029f79-5c1b-45f1-bc00-ea8159bbbff3: default
+  72ee8890-9aee-4fd9-a175-916a12c10bcf: default
+  f21c5f1d-bf1a-4f8c-b63a-3e28fd84145c: default
+  19fc2e5a-6c0a-403b-9078-c186f50b863d: default
+  26f55777-4496-469d-9d06-453b906e9185: default
+  8795aa19-592b-4110-b491-a299427f679f: default
+  00000000-0000-0000-0009-01f17c2d0c8a: default
+  465175e8-ca32-41a0-ab89-e3f3c815881b: founder
+  00000000-0000-0000-0009-01f07bdf6746: default
+  ab9bb931-ce9d-4d50-ba80-47ae05d3c2fa: default
+  f5078850-ea38-4b5b-9d3f-ea1d96ff9b8d: default
+  f5e1ad78-0d01-4638-b4cd-98a9bc5a79f5: default
+  00000000-0000-0000-0009-01fc3c7bbfff: default
+  00000000-0000-0000-0009-01f448888e01: default
+  ea74c314-407f-42c0-bb3b-10bc0bbf3691: default
+  0f92c934-9a8f-4155-80cc-b5ee9ab21890: default
+  d964b150-d54b-49c3-a058-305384db9d11: default
+  00000000-0000-0000-0009-01f0c5f92f7f: default
+  8f023dec-4697-411a-9af7-34d480ecfe2c: default
+  03ba9769-47e8-4795-8dd4-bf13a03c97d4: default
+  23f00dab-b566-4264-958c-63c70d2418bd: default
+  00000000-0000-0000-0009-01fadb0db670: default
+  00000000-0000-0000-0009-01f548bc9ed4: mod
+  a788c515-29ed-4424-a8ff-177bd6c84d80: vip
+  839e9b97-226a-4bd2-9a76-77f14e619ecb: default
+  b4a9e7d0-9df1-4c4e-98e5-00c3a9720431: mod
+  e886a52f-abb3-4475-a68e-c40335519914: default
+  077285b5-5771-42d6-a192-c770bb2a3201: default
+  72a46047-d73d-4cbc-bb23-fc1dfa40d6b7: default
+  1eadff54-6f49-421f-9727-e5b15f27beb2: default
+  00000000-0000-0000-0009-01f17d8bd6de: default
+  8db66f91-a1f1-4730-bfd5-93ddefb7eeec: mod
+  913c3d56-0cb6-4244-b1aa-a5307cb66001: default
+  4e21760d-d5d7-4ccf-a09b-d9dfec7108b6: default
+  c4ee092d-7fd6-451f-8267-2f88b02ba975: default
+  c9130f62-9f1b-4596-bb59-c72d5da47393: default
+  00000000-0000-0000-0009-01f7fe395a04: default
+  00000000-0000-0000-0009-01f91669ee5e: default
+  e8a9aff4-5a64-410f-a627-d14069e2b074: default
+  981b549f-c1de-49aa-8546-097627491b40: default
+  ed518795-08c6-4dfc-835b-a7c487627dc9: default
+  3d851516-1b09-4238-b472-774c2b3e6669: default
+  36cfb6f8-f417-457b-bac0-13161b7d593b: default
+  ce5d9820-7c84-4270-89a9-f00125c6a82a: admin
+  00000000-0000-0000-0009-01fe27dc68fa: default
+  00000000-0000-0000-0009-01fb07a7d487: default
+  1b7e7684-045d-4027-8617-a99d24e3ad30: default
+  0e570869-50de-48e6-a685-23b379bd1757: default
+  bae6fab4-5ab1-4348-8175-16e8ff771f9a: default
+  cb966f1d-7697-4ad8-ae41-08351cfc5c91: default
+  3f35d036-66cb-489e-a390-2b61499444ed: default
+  fdf6fc57-eb99-4ff4-8f6e-e69783e8483e: default
+  580b221f-b5df-4c05-8635-54e46f47dbbd: default
+  c7186762-25c1-4768-ab9c-05158c8f5c30: default
+  2432df35-03ca-44b7-93fd-de3798d4a28d: default
+  176f6ad7-d27f-4b5e-b962-01a008c8357c: default
+  f90f6dd5-0423-440c-b16c-bc25ac657436: default
+  c17aa99e-3525-4574-81a1-3c2aeed9ee14: default
+  00000000-0000-0000-0009-01ff05752377: default
+  7e4a25df-6260-4e39-8db7-16fc634dfe3e: default
+  a07fb1ea-e71a-4a5d-bb04-e0ecdaa0326d: default
+  ada8c590-2bb3-4eae-93a5-cbf1d9eaf163: default
+  85152fe4-6738-4da4-a353-42e42dc7bde4: default
+  a882b5b9-9f6b-48cf-8786-e8b0d7c8db9a: default
+  4afed8bf-beea-4280-9d8d-26d4749a7014: default
+# Example:
+# 12345678-abcd-efgh-ijkl-0123456789ab:
+#   originalRank: "default"
+#   temporaryRank: "vip"
+#   targetRank: "default"
+#   expirationTimeMillis: 1678886400000 # Example timestamp
+
+messages:
+  plugin_enabled: '&aRankPlugin has been enabled!'
+  luckperms_hooked: '&aSuccessfully hooked into LuckPerms API.'
+  luckperms_not_found: '&cLuckPerms API not found! Rank management will not function
+    correctly.'
+  vault_hooked: '&aSuccessfully hooked into Vault Economy API.'
+  vault_not_found: '&eVault Economy API not found! Economy features will not function.'
+  pro_money_task_cancelled: '&ePro rank money task cancelled.'
+  pro_money_task_no_economy: '&cCannot schedule pro rank money task: Vault Economy
+    not found.'
+  pro_money_task_running: '&aDistributing money to Pro rank players...'
+  pro_money_received: '&aYou received %amount% for being a Pro rank!'
+  pro_money_given_log: '&aGave %amount% to %player_name% for being a Pro rank.'
+  pro_money_check_error: '&cError checking pro rank for %player_name%: %error_message%'
+  pro_money_task_scheduled: '&aPro rank money task scheduled to run every 2 days (giving
+    %amount%).'
+  mvp_money_task_cancelled: '&eMVP rank money task cancelled.'
+  mvp_money_task_no_economy: '&cCannot schedule MVP rank money task: Vault Economy
+    not found.'
+  mvp_money_task_running: '&aDistributing money to MVP rank players...'
+  mvp_money_received: '&aYou received %amount% for being an MVP rank!'
+  mvp_money_given_log: '&aGave %amount% to %player_name% for being an MVP rank.'
+  mvp_money_check_error: '&cError checking MVP rank for %player_name%: %error_message%'
+  mvp_money_task_scheduled: '&aMVP rank money task scheduled to run every 2 days (giving
+    %amount%).'
+  builder_money_task_cancelled: '&eBuilder rank money task cancelled.'
+  builder_money_task_no_economy: '&cCannot schedule Builder rank money task: Vault
+    Economy not found.'
+  builder_money_task_running: '&aDistributing money to Builder rank players...'
+  builder_money_received: '&aYou received %amount% for being a Builder rank!'
+  builder_money_given_log: '&aGave %amount% to %player_name% for being a Builder rank.'
+  builder_money_check_error: '&cError checking Builder rank for %player_name%: %error_message%'
+  builder_money_task_scheduled: '&aBuilder rank money task scheduled to run every
+    2 days (giving %amount%).'
+  legend_money_task_cancelled: '&eLegend rank money task cancelled.'
+  legend_money_task_no_economy: '&cCannot schedule Legend rank money task: Vault Economy
+    not found.'
+  legend_money_task_running: '&aDistributing money to Legend rank players...'
+  legend_money_received: '&aYou received %amount% for being a Legend rank!'
+  legend_money_given_log: '&aGave %amount% to %player_name% for being a Legend rank.'
+  legend_money_check_error: '&cError checking Legend rank for %player_name%: %error_message%'
+  legend_money_task_scheduled: '&aLegend rank money task scheduled to run every 2
+    days (giving %amount%).'
+  discord_disconnected: '&eDisconnected from Discord Gateway.'
+  plugin_disabled: '&aRankPlugin has been disabled!'
+  invalid_uuid_pending_changes: '&cInvalid UUID found in pending_rank_changes: %uuid%'
+  discord_token_not_set: '&eDiscord bot token not set in config.yml. Discord integration
+    disabled.'
+  discord_bot_connected: '&aDiscord bot connected successfully!'
+  discord_connected_to_guild: '&aConnected to Discord Guild: %guild_name%'
+  discord_log_channel: '&aDiscord Log Channel: #%channel_name%'
+  discord_log_channel_not_found: '&eDiscord log channel with ID %channel_id% not found!'
+  discord_guild_not_found: '&eDiscord guild with ID %guild_id% not found!'
+  discord_connection_interrupted: '&cDiscord bot connection interrupted!'
+  discord_connection_failed: '&cFailed to connect Discord bot: %error_message%'
+  discord_guild_not_found_sync: '&eDiscord Guild not found for ID: %guild_id%'
+  discord_member_not_found: '&eDiscord member not found for player UUID: %player_uuid%'
+  discord_role_mapping_not_found: '&eNo Discord role mapping found for Minecraft rank:
+    %mc_rank%'
+  discord_role_id_not_found: '&eDiscord Role not found for ID: %role_id% (Mapped from
+    MC rank: %mc_rank%)'
+  discord_role_removed: '&aRemoved Discord role %role_name% from %member_name%'
+  discord_failed_to_remove_role: '&cFailed to remove Discord role %role_name% from
+    %member_name%: %error_message%'
+  discord_bot_lacks_permission_remove: '&cBot lacks permissions to manage Discord
+    role %role_name%: %error_message%'
+  discord_role_added: '&aAdded Discord role %role_name% to %member_name%'
+  discord_failed_to_add_role: '&cFailed to add Discord role %role_name% to %member_name%:
+    %error_message%'
+  discord_bot_lacks_permission_add: '&cBot lacks permissions to manage Discord role
+    %role_name%: %error_message%'
+  discord_sync_error: '&cError syncing Discord role for player %player_uuid%: %error_message%'
+  no_permission: '&cYou do not have permission to use this command.'
+  plugin_reloaded: '&aRankPlugin reloaded successfully!'
+  no_permission_list: '&cYou do not have permission to list ranks.'
+  available_ranks_header: '&6--- Available Ranks ---'
+  available_ranks_footer: '&6--------------------'
+  help_header: '&6--- RankPlugin Help ---'
+  help_set_command: '&e/rank set <player> <rank> - Set a player''s permanent rank.'
+  help_temp_command: '&e/rank temp <player> <rank> <duration> - Set a player''s temporary
+    rank (e.g., 1h, 3d, 2w).'
+  help_promote_command: '&e/rank promote <player> - Promote a player to the next rank.'
+  help_demote_command: '&e/rank demote <player> - Demote a player to the previous
+    rank.'
+  help_info_command: '&e/rank info <player> - View a player''s current rank.'
+  help_remove_command: '&e/rank remove <player> - Remove a player''s custom rank,
+    setting them to default.'
+  help_list_command: '&e/rank list - List all available ranks.'
+  help_reload_command: '&e/rank reload - Reload the plugin configuration.'
+  help_listplayers_command: '&e/rank listplayers <rank> - List all players in a specific
+    rank.'
+  help_create_command: '&e/rank create <rank_name> <prefix> [discord_role_id] - Create
+    a new rank.'
+  help_delete_command: '&e/rank delete <rank_name> - Delete an existing rank.'
+  help_footer: '&6-----------------------'
+  no_permission_set: '&cYou do not have permission to set ranks.'
+  usage_set: '&cUsage: /rank set <player> <rank>'
+  rank_not_exist_config: '&cRank ''%rank_name%'' does not exist in plugin config.'
+  rank_set_success: '&aSet %player_name%''s rank to %rank_name%.'
+  your_rank_set: '&aYour rank has been set to %rank_name%!'
+  no_permission_temp: '&cYou do not have permission to set temporary ranks.'
+  usage_temp: '&cUsage: /rank temp <player> <rank> <duration> (e.g., 1h, 3d, 2w)'
+  invalid_duration_format: '&cInvalid duration format. Use e.g., 1h, 3d, 2w.'
+  temp_rank_set_success: '&aSet %player_name%''s temporary rank to %rank_name% for
+    %duration%.'
+  your_temp_rank_set: '&aYour rank has been temporarily set to %rank_name% for %duration%!'
+  no_permission_promote_demote: '&cYou do not have permission to %command_name% players.'
+  usage_promote_demote: '&cUsage: /rank %command_name% <player>'
+  cannot_promote_demote_further: '&c%player_name% cannot be %command_name%d further.'
+  player_promoted_demoted: '&a%player_name% has been %command_name%d to %new_rank%.'
+  you_promoted_demoted: '&aYou have been %command_name%d to %new_rank%!'
+  no_permission_info: '&cYou do not have permission to view player ranks.'
+  usage_info: '&cUsage: /rank info <player>'
+  temp_rank_status_active: '&e (Temporary, reverts to %target_rank% in %remaining_time%)'
+  temp_rank_status_expired: '&c (Temporary, expired and pending revert)'
+  player_current_rank: '&6%player_name%''s current rank: %rank%'
+  no_permission_remove: '&cYou do not have permission to remove player ranks.'
+  usage_remove: '&cUsage: /rank remove <player>'
+  cleared_pending_temp_rank_changes: '&eCleared any pending temporary rank changes
+    for %player_name%.'
+  rank_removed_success: '&aRemoved %player_name%''s custom rank. They are now %default_rank%.'
+  your_rank_removed: '&aYour custom rank has been removed. You are now %default_rank%!'
+  temp_rank_expired_player: '&eYour temporary rank (%temp_rank%) has expired. You
+    are now %target_rank%.'
+  temp_rank_expired_console: '&eReverted %player_name% to %target_rank%.'
+  luckperms_group_not_found: '&eWarning: LuckPerms group ''%rank_name%'' not found.
+    Player''s group in LuckPerms might not be set correctly.'
+  luckperms_group_updated: '&aUpdated LuckPerms group for %player_name% to %rank_name%.'
+  luckperms_api_not_available: '&cLuckPerms API is not available. Cannot update player
+    group for %player_name%.'
+  luckperms_modify_failed: '&cFailed to modify LuckPerms user %player_name%: %error_message%'
+  luckperms_save_failed: '&cFailed to save LuckPerms user %player_name%: %error_message%'
+  ranks_section_not_found: '&cRanks section not found in config.yml!'
+  no_permission_listplayers: '&cYou do not have permission to list players in ranks.'
+  usage_listplayers: '&cUsage: /rank listplayers <rank>'
+  no_players_in_rank: '&eNo players found in rank ''%rank_name%''.'
+  players_in_rank_header: '&6--- Players in Rank %rank_name% ---'
+  players_in_rank_footer: '&6--------------------------------'
+  no_permission_create: '&cYou do not have permission to create ranks.'
+  usage_create: '&cUsage: /rank create <rank_name> <prefix> [discord_role_id]'
+  rank_already_exists: '&cRank ''%rank_name%'' already exists.'
+  rank_created_success: '&aRank ''%rank_name%'' created successfully with prefix ''%prefix%''.'
+  rank_created_success_discord: '&aRank ''%rank_name%'' created successfully with
+    prefix ''%prefix%'' and Discord role ID ''%discord_id%''.'
+  no_permission_delete: '&cYou do not have permission to delete ranks.'
+  usage_delete: '&cUsage: /rank delete <rank_name>'
+  rank_delete_not_exist: '&cRank ''%rank_name%'' does not exist in plugin config.'
+  rank_delete_players_assigned: '&cCannot delete rank ''%rank_name%''. %count% players
+    are currently assigned to it. Please reassign them first.'
+  rank_deleted_success: '&aRank ''%rank_name%'' deleted successfully.'
+  rank_deleted_from_luckperms: '&aSuccessfully deleted LuckPerms group ''%rank_name%''.'
+  rank_delete_luckperms_failed: '&cFailed to delete LuckPerms group ''%rank_name%'':
+    %error_message%'
+  scoreboard_manager_not_found: '&cScoreboardManager not found! Health display under
+    nametags will not work.'
+  health_display_name: ❤
+  health_display_created: '&aCreated new health display objective for nametags.'
+  health_display_reused: '&aReusing existing health display objective for nametags.'

@@ -1,0 +1,341 @@
+# UmbraixJobs Configuration
+# Version 1.0.0
+
+# General Settings
+settings:
+  debug: false
+  save-interval: 300 # Save player data every 5 minutes
+  show-xp-messages: true # Show XP gain messages
+  show-action-messages: true # Show action bar messages
+  show-team-xp-messages: true # Show team XP share messages
+  max-missions-per-player: 3 # Maximum active missions per player
+  max-team-size: 5 # Maximum players per team
+
+# Economy Settings
+economy:
+  currency-symbol: $
+  decimal-format: '#,##0.00'
+
+# Jobs Configuration
+jobs:
+  miner:
+    display: Miner
+    description: Break blocks to earn money
+    reward-per-block:
+      STONE: 1.5
+      COAL_ORE: 3.0
+      IRON_ORE: 5.0
+      GOLD_ORE: 7.0
+      DIAMOND_ORE: 10.0
+      EMERALD_ORE: 12.0
+    max-level: 100
+    prestige-unlock: true
+    leveling:
+      base-xp: 100.0 # Base XP required for level 2
+      xp-multiplier: 1.5 # Each level requires 1.5x more XP than the previous
+      prestige-xp-bonus: 0.1 # 10% XP bonus per prestige level
+      xp-per-block: # XP earned per block break
+        STONE: 15.0
+        COAL_ORE: 30.0
+        IRON_ORE: 50.0
+        GOLD_ORE: 70.0
+        DIAMOND_ORE: 100.0
+        EMERALD_ORE: 120.0
+      level-rewards: # Money rewards for reaching specific levels
+        '10': 100.0
+        '25': 250.0
+        '50': 500.0
+        '75': 750.0
+        '100': 1000.0
+  
+  farmer:
+    display: Farmer
+    description: Harvest crops to earn money
+    reward-per-action:
+      WHEAT_HARVEST: 1.0
+      CARROT_HARVEST: 1.2
+      POTATO_HARVEST: 1.2
+      BEETROOT_HARVEST: 1.5
+      PUMPKIN_HARVEST: 2.0
+      MELON_HARVEST: 2.0
+    max-level: 100
+    prestige-unlock: true
+    leveling:
+      base-xp: 80.0 # Base XP required for level 2
+      xp-multiplier: 1.4 # Each level requires 1.4x more XP than the previous
+      prestige-xp-bonus: 0.1 # 10% XP bonus per prestige level
+      xp-per-action: # XP earned per action
+        WHEAT_HARVEST: 10.0
+        CARROT_HARVEST: 12.0
+        POTATO_HARVEST: 12.0
+        BEETROOT_HARVEST: 15.0
+        PUMPKIN_HARVEST: 20.0
+        MELON_HARVEST: 20.0
+      level-rewards: # Money rewards for reaching specific levels
+        '10': 100.0
+        '25': 250.0
+        '50': 500.0
+        '75': 750.0
+        '100': 1000.0
+  
+  hunter:
+    display: Hunter
+    description: Hunt mobs to earn money
+    reward-per-entity:
+      ZOMBIE: 2.0
+      SKELETON: 2.5
+      SPIDER: 2.0
+      CREEPER: 3.0
+      ENDERMAN: 5.0
+    max-level: 100
+    prestige-unlock: true
+    leveling:
+      base-xp: 120.0 # Base XP required for level 2
+      xp-multiplier: 1.6 # Each level requires 1.6x more XP than the previous
+      prestige-xp-bonus: 0.1 # 10% XP bonus per prestige level
+      xp-per-entity: # XP earned per entity kill
+        ZOMBIE: 20.0
+        SKELETON: 25.0
+        SPIDER: 20.0
+        CREEPER: 30.0
+        ENDERMAN: 50.0
+      level-rewards: # Money rewards for reaching specific levels
+        '10': 100.0
+        '25': 250.0
+        '50': 500.0
+        '75': 750.0
+        '100': 1000.0
+
+# Discord Integration
+discord:
+  webhook:
+    enabled: false # Set to true to enable Discord webhook integration
+    url: '' # Your Discord webhook URL
+    username: Umbraix Jobs # The username that will appear in Discord
+    avatar-url: https://i.imgur.com/your-avatar-url.png # URL to the avatar image
+    events:
+      server-start: true # Send message when server starts
+      server-stop: true # Send message when server stops
+      job-level-up: true # Send message when player levels up
+      job-prestige: true # Send message when player prestiges
+      mission-complete: true # Send message when player completes a mission
+      team-create: true # Send message when a team is created
+  
+  # DiscordSRV Integration (requires DiscordSRV plugin)
+  discordsrv:
+    enabled: true # Set to false to disable DiscordSRV integration
+    channels:
+      jobs: jobs # Channel name for job-related messages
+      achievements: achievements # Channel name for achievement messages
+
+# Messages
+messages:
+  prefix: '&8[&bUmbraix&3Jobs&8] &r'
+  job-joined: '&aYou have joined the {job} job!'
+  job-left: '&cYou have left the {job} job.'
+  job-reward: '&a+{amount} for {action}'
+  job-xp: '&b+{xp} XP for {action}'
+  level-up: '&a&lCongratulations! &aYou have reached level {level} in {job}!'
+  level-reward: '&a&lBonus! &aYou received {amount} for reaching level {level}!'
+  prestige: '&d&lPRESTIGE! &dYou have prestiged your {job} job to level {level}!'
+  no-permission: '&cYou don''t have permission to do that!'
+  not-in-job: '&cYou are not in that job!'
+  already-in-job: '&cYou are already in that job!'
+  job-not-found: '&cThat job doesn''t exist!'
+  max-level: '&cYou are already at the maximum level for this job!'
+  not-max-level: '&cYou need to reach the maximum level before you can prestige!'
+  
+  # Mission messages
+  mission-assigned: '&a&lNEW MISSION! &a{mission}'
+  mission-progress: '&a&lMISSION PROGRESS! &a{mission}: &f{progress}&7/&f{required}
+    &7(&e{percent}%&7)'
+  mission-completed: '&a&lMISSION COMPLETED! &a{mission}'
+  mission-reward-money: '&a+{amount}'
+  mission-reward-xp: '&b+{xp} XP'
+  
+  # Team messages
+  team-invite: '&a{player} has invited you to join team {team}! Type &f/jobs team
+    join {team} &ato accept.'
+  team-join: '&a{player} has joined the team!'
+  team-leave: '&e{player} has left the team.'
+  team-kick: '&c{player} has been kicked from the team.'
+  team-kicked: '&cYou have been kicked from team {team}.'
+  team-owner-left: '&e{player} has left the team and {newowner} is now the owner!'
+  team-deleted: '&cYour team has been deleted because you were the only member.'
+  team-xp-received: '&b+{xp} XP for {job} &7(from {player})'
+
+# Mission Templates
+mission-templates:
+  # Mining missions
+  mine-stone:
+    display-name: Stone Miner
+    description: Mine {amount} stone blocks
+    type: BREAK_BLOCK
+    job: miner
+    target: STONE
+    min-amount: 50
+    max-amount: 200
+    min-money-reward: 20.0
+    max-money-reward: 50.0
+    min-xp-reward: 100.0
+    max-xp-reward: 250.0
+    duration: 24 # Hours
+  
+  mine-coal:
+    display-name: Coal Collector
+    description: Mine {amount} coal ore
+    type: BREAK_BLOCK
+    job: miner
+    target: COAL_ORE
+    min-amount: 30
+    max-amount: 100
+    min-money-reward: 30.0
+    max-money-reward: 75.0
+    min-xp-reward: 150.0
+    max-xp-reward: 300.0
+    duration: 24
+  
+  mine-iron:
+    display-name: Iron Miner
+    description: Mine {amount} iron ore
+    type: BREAK_BLOCK
+    job: miner
+    target: IRON_ORE
+    min-amount: 20
+    max-amount: 80
+    min-money-reward: 50.0
+    max-money-reward: 100.0
+    min-xp-reward: 200.0
+    max-xp-reward: 400.0
+    duration: 24
+  
+  mine-diamond:
+    display-name: Diamond Hunter
+    description: Mine {amount} diamond ore
+    type: BREAK_BLOCK
+    job: miner
+    target: DIAMOND_ORE
+    min-amount: 10
+    max-amount: 30
+    min-money-reward: 100.0
+    max-money-reward: 250.0
+    min-xp-reward: 300.0
+    max-xp-reward: 600.0
+    duration: 48
+  
+  # Farming missions
+  harvest-wheat:
+    display-name: Wheat Harvester
+    description: Harvest {amount} wheat
+    type: HARVEST
+    job: farmer
+    target: WHEAT_HARVEST
+    min-amount: 40
+    max-amount: 150
+    min-money-reward: 25.0
+    max-money-reward: 60.0
+    min-xp-reward: 120.0
+    max-xp-reward: 280.0
+    duration: 24
+  
+  harvest-carrot:
+    display-name: Carrot Collector
+    description: Harvest {amount} carrots
+    type: HARVEST
+    job: farmer
+    target: CARROT_HARVEST
+    min-amount: 40
+    max-amount: 150
+    min-money-reward: 30.0
+    max-money-reward: 70.0
+    min-xp-reward: 130.0
+    max-xp-reward: 300.0
+    duration: 24
+  
+  harvest-potato:
+    display-name: Potato Farmer
+    description: Harvest {amount} potatoes
+    type: HARVEST
+    job: farmer
+    target: POTATO_HARVEST
+    min-amount: 40
+    max-amount: 150
+    min-money-reward: 30.0
+    max-money-reward: 70.0
+    min-xp-reward: 130.0
+    max-xp-reward: 300.0
+    duration: 24
+  
+  # Hunting missions
+  hunt-zombie:
+    display-name: Zombie Hunter
+    description: Kill {amount} zombies
+    type: KILL_ENTITY
+    job: hunter
+    target: ZOMBIE
+    min-amount: 20
+    max-amount: 80
+    min-money-reward: 40.0
+    max-money-reward: 100.0
+    min-xp-reward: 150.0
+    max-xp-reward: 350.0
+    duration: 24
+  
+  hunt-skeleton:
+    display-name: Skeleton Hunter
+    description: Kill {amount} skeletons
+    type: KILL_ENTITY
+    job: hunter
+    target: SKELETON
+    min-amount: 20
+    max-amount: 80
+    min-money-reward: 50.0
+    max-money-reward: 120.0
+    min-xp-reward: 180.0
+    max-xp-reward: 380.0
+    duration: 24
+  
+  hunt-creeper:
+    display-name: Creeper Hunter
+    description: Kill {amount} creepers
+    type: KILL_ENTITY
+    job: hunter
+    target: CREEPER
+    min-amount: 15
+    max-amount: 50
+    min-money-reward: 60.0
+    max-money-reward: 150.0
+    min-xp-reward: 200.0
+    max-xp-reward: 450.0
+    duration: 24
+
+# Action Bar Messages
+action-messages:
+  # Mining action messages
+  mining:
+    STONE: '&a+1 &7Stone &8| &b+{xp} XP &8| &e{job}'
+    COAL_ORE: '&a+1 &8Coal Ore &8| &b+{xp} XP &8| &e{job}'
+    IRON_ORE: '&a+1 &fIron Ore &8| &b+{xp} XP &8| &e{job}'
+    GOLD_ORE: '&a+1 &6Gold Ore &8| &b+{xp} XP &8| &e{job}'
+    DIAMOND_ORE: '&a+1 &bDiamond Ore &8| &b+{xp} XP &8| &e{job}'
+    EMERALD_ORE: '&a+1 &aEmerald Ore &8| &b+{xp} XP &8| &e{job}'
+    REDSTONE_ORE: '&a+1 &cRedstone Ore &8| &b+{xp} XP &8| &e{job}'
+    LAPIS_ORE: '&a+1 &9Lapis Ore &8| &b+{xp} XP &8| &e{job}'
+  
+  # Farming action messages
+  farming:
+    WHEAT_HARVEST: '&a+1 &eWheat &8| &b+{xp} XP &8| &e{job}'
+    CARROT_HARVEST: '&a+1 &6Carrot &8| &b+{xp} XP &8| &e{job}'
+    POTATO_HARVEST: '&a+1 &6Potato &8| &b+{xp} XP &8| &e{job}'
+    BEETROOT_HARVEST: '&a+1 &cBeetroot &8| &b+{xp} XP &8| &e{job}'
+    PUMPKIN_HARVEST: '&a+1 &6Pumpkin &8| &b+{xp} XP &8| &e{job}'
+    MELON_HARVEST: '&a+1 &aWatermelon &8| &b+{xp} XP &8| &e{job}'
+  
+  # Hunting action messages
+  hunting:
+    ZOMBIE: '&a+1 &2Zombie &8| &b+{xp} XP &8| &e{job}'
+    SKELETON: '&a+1 &7Skeleton &8| &b+{xp} XP &8| &e{job}'
+    CREEPER: '&a+1 &aCreeper &8| &b+{xp} XP &8| &e{job}'
+    SPIDER: '&a+1 &8Spider &8| &b+{xp} XP &8| &e{job}'
+    ENDERMAN: '&a+1 &5Enderman &8| &b+{xp} XP &8| &e{job}'
+    WITCH: '&a+1 &5Witch &8| &b+{xp} XP &8| &e{job}'

@@ -1,0 +1,794 @@
+[20:06:36] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-1044-azure (amd64)
+[20:06:36] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-99-main@81b9122 (2026-01-20T19:08:30Z) for Minecraft 1.21.11
+[20:06:36] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:06:38] [ServerMain/INFO]: [PluginInitializerManager] Initialized 16 plugins
+[20:06:38] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - Veinminer (2.5.3)
+[20:06:38] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (15):
+ - BetterRTP (3.6.13), Essentials (2.21.2), Geyser-Spigot (2.9.2-SNAPSHOT), GravesX (4.9.10.10), LuckPerms (5.5.17), ProtocolLib (5.4.0), QuickShop-Hikari (6.2.0.11), SetHome (0.1), SkinsRestorer (15.10.0), ToolStats (2.0), UmbraixJobs (1.2.0), Vault (1.5.3), ViaBackwards (5.7.1), ViaVersion (5.7.1), packetevents (2.11.2)
+[20:06:44] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[20:06:46] [ServerMain/INFO]: Loaded 1470 recipes
+[20:06:46] [ServerMain/INFO]: Loaded 1584 advancements
+[20:06:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[20:06:47] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 498.0ms
+[20:06:47] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[20:06:47] [Server thread/INFO]: Loading properties
+[20:06:47] [Server thread/INFO]: This server is running Paper version 1.21.11-99-main@81b9122 (2026-01-20T19:08:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[20:06:47] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:06:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:06:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:06:47] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[20:06:47] [Server thread/INFO]: Default game type: SURVIVAL
+[20:06:47] [Server thread/INFO]: Generating keypair
+[20:06:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:06:48] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:06:48] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[20:06:48] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.7.1
+[20:06:48] [Server thread/INFO]: [ViaVersion] ViaVersion 5.7.1 is now loaded. Registering protocol transformers and injecting...
+[20:06:49] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:06:49] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:06:50] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:06:50] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:06:50] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
+[20:06:51] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:06:51] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.9.2-SNAPSHOT
+[20:06:51] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[20:06:51] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[20:06:51] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[20:06:51] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[20:06:51] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.7.1
+[20:06:51] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.5.3
+[20:06:51] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.2
+[20:06:53] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[20:06:53] [Server thread/INFO]: [GravesX] Loading server plugin GravesX v4.9.10.10
+[20:06:54] [Server thread/INFO]: [GravesX] [Modules] No module jars found in plugins/GravesX/modules
+[20:06:54] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.10.0
+[20:06:54] [Server thread/INFO]: [ToolStats] Loading server plugin ToolStats v2.0
+[20:06:54] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.5.3
+[20:06:54] [Server thread/INFO]: [Veinminer] Detected platform: Paper
+[20:06:54] [Server thread/INFO]: [QuickShop-Hikari] Loading server plugin QuickShop-Hikari v6.2.0.11
+[20:06:54] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> Execute the initialization sequence
+[20:06:54] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Bootloader preparing for startup, please wait...
+[20:06:54] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Initializing libraries...
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] Maven repository mirror test result:
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [US] CENTRAL: 115ms
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [US] APACHE: 130ms
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [EU] GOOGLE: 168ms
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [CN] TENCENT: 398ms
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [CN] ALIYUN: 574ms
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [CN] HUAWEI: 1486ms
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading 11 libraries (0 skipped libraries)...
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library org.apache.commons:commons-lang3:3.18.0 [1/11]
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library org.apache.commons:commons-compress:1.25.0 [2/11]
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.google.code.gson:gson:2.10.1 [3/11]
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.google.guava:guava:33.1.0-jre [4/11]
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.rollbar:rollbar-java:1.9.0 [5/11]
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.h2database:h2:2.1.214 [6/11]
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.konghq:unirest-java:3.14.5 [7/11]
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library net.sourceforge.csvjdbc:csvjdbc:1.0.42 [8/11]
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library org.dom4j:dom4j:2.1.4 [9/11]
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.vdurmont:semver4j:3.1.0 [10/11]
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.ghostchu.crowdin:crowdinota:1.0.3 [11/11]
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Initialing Unirest...
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Initializing platform...
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Platform detected: Paper
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] Slf4jLogger initialized
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Platform initialized: com.ghostchu.quickshop.platform.paper.PaperPlatform
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Boot QuickShop instance...
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Creating QuickShop instance...
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] Registering Bukkit Service: com.ghostchu.quickshop.api.QuickShopProvider
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] Reading the configuration...
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] QuickShop Hikari - Early boot step - Booting up
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] Self testing...
+[20:06:56] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Failed to parse fid: For input string: ""
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: Spigot Based Server Test: Except stage: [ON_ENABLE] Current stage: ON_LOAD
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: Old QuickShop Test: Except stage: [ON_ENABLE] Current stage: ON_LOAD
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: ModdedServer Based Test: Except stage: [ON_ENABLE] Current stage: ON_LOAD
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: ModdedServer Database Driver Test: Except stage: [ON_ENABLE] Current stage: ON_LOAD
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: CoreSupport Test: Except stage: [ON_ENABLE] Current stage: ON_LOAD
+[20:06:56] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: Virtual DisplayItem Support Test: Except stage: [ON_ENABLE] Current stage: ON_LOAD
+[20:06:56] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: ProtocolLib Incorrect Locate Test: Except stage: [ON_ENABLE] Current stage: ON_LOAD
+[20:06:56] [pool-16-thread-3/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: GameVersion supporting Test: Except stage: [ON_ENABLE] Current stage: ON_LOAD
+[20:06:56] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: Permission Manager Test: Except stage: [ON_ENABLE] Current stage: ON_LOAD
+[20:06:56] [pool-16-thread-3/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: EcoEnchants V11 Check: Except stage: [ON_ENABLE] Current stage: ON_LOAD
+[20:06:56] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: Reremake Test: Except stage: [ON_ENABLE] Current stage: ON_LOAD
+[20:06:56] [pool-16-thread-4/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: PacketListenerAPI Conflict Test: Except stage: [ON_ENABLE] Current stage: ON_LOAD
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: End of life Test: Except stage: [ON_ENABLE] Current stage: ON_LOAD
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] Setting up privacy controller...
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] Setting up QuickShop registry....
+[20:06:56] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: Virtual DisplayItem Support Test: Except stage: [AFTER_ON_ENABLE] Current stage: ON_LOAD
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] Setting up metrics manager...
+[20:06:56] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] The module [RESEARCH___ADDONS_OR_COMPACTS_DISCOVERED] requesting to processing your data off your local machine for usage [RESEARCH], the reason is: QuickShop collects the QuickShop's addons/compacts (including 3rd-party) list that installed on your server to discover new addons/compacts so we can contact authors when we have major API changes, or use for improve exists official addons/compacts who have most of users using.. Transaction Id: 53d10162-346b-41f1-bd24-f3ab25777336
+[20:06:56] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [CHECK] Transaction 53d10162-346b-41f1-bd24-f3ab25777336 was approved: `module` section not found but RESEARCH type was explicitly enabled.
+[20:06:56] [pool-16-thread-4/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered metrics collector: Research - Addons or Compacts Discovered
+[20:06:56] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [CHECK] Transaction fa9e6333-3ceb-4f94-b5f9-1342479ea421 was approved: `module` section not found but RESEARCH type was explicitly enabled.
+[20:06:56] [pool-16-thread-3/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered metrics collector: Research - Item Stacking Shop
+[20:06:56] [pool-16-thread-4/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] The module [RESEARCH___ITEM_STACKING_SHOP] requesting to processing your data off your local machine for usage [RESEARCH], the reason is: We collect this for determine if we should push Item Stacking Shop to a feature that default enabled.. Transaction Id: fa9e6333-3ceb-4f94-b5f9-1342479ea421
+[20:06:56] [pool-16-thread-3/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [CHECK] Transaction f65bfd5b-5eef-4572-9994-86cb21cbb3ab was approved: `module` section not found but RESEARCH type was explicitly enabled.
+[20:06:56] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] Accepted transaction f65bfd5b-5eef-4572-9994-86cb21cbb3ab
+[20:06:56] [pool-16-thread-4/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] The module [RESEARCH___PROTECTION_LISTENER_BLACKLIST] requesting to processing your data off your local machine for usage [RESEARCH], the reason is: We collect this for determine if we should add common listener blacklist entry to default configuration.. Transaction Id: f65bfd5b-5eef-4572-9994-86cb21cbb3ab
+[20:06:56] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] Accepted transaction 53d10162-346b-41f1-bd24-f3ab25777336
+[20:06:56] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] Accepted transaction fa9e6333-3ceb-4f94-b5f9-1342479ea421
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered metrics collector: Research - Protection Listener Blacklist
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] The module [RESEARCH___COMMAND_ALIAS] requesting to processing your data off your local machine for usage [RESEARCH], the reason is: We collect this for determine if we should add/remove alias to default configuration.. Transaction Id: 03255ce9-fb99-4edb-aa04-ff27d8a5a014
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [CHECK] Transaction 03255ce9-fb99-4edb-aa04-ff27d8a5a014 was approved: `module` section not found but RESEARCH type was explicitly enabled.
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] Accepted transaction 03255ce9-fb99-4edb-aa04-ff27d8a5a014
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered metrics collector: Research - Command Alias
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] The module [STATISTIC___DATABASE_TYPES] requesting to processing your data off your local machine for usage [STATISTIC], the reason is: We collect this so we can know the percent of different database types users.. Transaction Id: 98a600ef-eb71-48c4-8540-c184c317c389
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [CHECK] Transaction 98a600ef-eb71-48c4-8540-c184c317c389 was approved: `module` section not found but STATISTIC type was explicitly enabled.
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] Accepted transaction 98a600ef-eb71-48c4-8540-c184c317c389
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered metrics collector: Statistic - Database Types
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] The module [STATISTIC___ECONOMY_TYPES] requesting to processing your data off your local machine for usage [STATISTIC], the reason is: We collect this so we can know the percent of different economy types users.. Transaction Id: 3b7cbba9-4314-4325-ac72-ba6110345e4f
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [CHECK] Transaction 3b7cbba9-4314-4325-ac72-ba6110345e4f was approved: `module` section not found but STATISTIC type was explicitly enabled.
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] Accepted transaction 3b7cbba9-4314-4325-ac72-ba6110345e4f
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered metrics collector: Statistic - Economy Types
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] The module [STATISTIC___ITEMMATCHER] requesting to processing your data off your local machine for usage [STATISTIC], the reason is: We collect this so we can know the item matcher that users using, and improve it.. Transaction Id: 1e3c8fbc-1964-4a04-9613-ec7eaf60f4d0
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [CHECK] Transaction 1e3c8fbc-1964-4a04-9613-ec7eaf60f4d0 was approved: `module` section not found but STATISTIC type was explicitly enabled.
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] Accepted transaction 1e3c8fbc-1964-4a04-9613-ec7eaf60f4d0
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered metrics collector: Statistic - ItemMatcher
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] The module [STATISTIC___DISPLAYIMPL] requesting to processing your data off your local machine for usage [STATISTIC], the reason is: We collect this so we can know the which one item display impl most using, and improve it.. Transaction Id: 678ed1b2-24fd-4252-832d-b4f385c85440
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [CHECK] Transaction 678ed1b2-24fd-4252-832d-b4f385c85440 was approved: `module` section not found but STATISTIC type was explicitly enabled.
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] Accepted transaction 678ed1b2-24fd-4252-832d-b4f385c85440
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered metrics collector: Statistic - DisplayImpl
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] The module [STATISTIC___ALL_SHOPS_HOSTING_ACROSS_ALL_SERVERS] requesting to processing your data off your local machine for usage [RESEARCH], the reason is: How many shops we can power across all servers? This research will used for performance tweak for components like shop managing/looking up/caching size etc.. Transaction Id: 3ba7dc18-fdf6-4e3e-af8a-be6ec908976d
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [CHECK] Transaction 3ba7dc18-fdf6-4e3e-af8a-be6ec908976d was approved: `module` section not found but RESEARCH type was explicitly enabled.
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] Accepted transaction 3ba7dc18-fdf6-4e3e-af8a-be6ec908976d
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered metrics collector: Statistic - All shops hosting across all servers
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] The module [STATISTIC___BACKGROUND_DEBUG_LOGGER] requesting to processing your data off your local machine for usage [STATISTIC], the reason is: We collect this so we can know the which one item display impl most using, and improve it.. Transaction Id: 168310ac-f1e9-438b-9722-4f174ab36b7d
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [CHECK] Transaction 168310ac-f1e9-438b-9722-4f174ab36b7d was approved: `module` section not found but STATISTIC type was explicitly enabled.
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] Accepted transaction 168310ac-f1e9-438b-9722-4f174ab36b7d
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered metrics collector: Statistic - Background Debug Logger
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] The module [RESEARCH___PROTOCOLLIB_VERSION] requesting to processing your data off your local machine for usage [RESEARCH], the reason is: We collect this so we can know the which one ProtocolLib is popular. ProtocolLib sometimes releases destructive updates, so we collect this metric to know the distribution of ProtocolLib versions among users and remove unused ProtocolLib workaround code to improve code maintainability and program performance.. Transaction Id: e527a6b8-7eb8-4ffb-8d19-db38e40ffb71
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] Accepted transaction e527a6b8-7eb8-4ffb-8d19-db38e40ffb71
+[20:06:56] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [CHECK] Transaction e527a6b8-7eb8-4ffb-8d19-db38e40ffb71 was approved: `module` section not found but RESEARCH type was explicitly enabled.
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered metrics collector: Research - ProtocolLib Version
+[20:06:56] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] The module [RESEARCH___PACKETEVENTS_VERSION] requesting to processing your data off your local machine for usage [RESEARCH], the reason is: We collect this so we can know the which one PacketEvents is popular. PacketEvents sometimes releases destructive updates, so we collect this metric to know the distribution of PacketEvents versions among users and remove unused PacketEvents workaround code to improve code maintainability and program performance.. Transaction Id: 5b599d52-e8ee-41c3-b467-89e0094b308b
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [CHECK] Transaction 5b599d52-e8ee-41c3-b467-89e0094b308b was approved: `module` section not found but RESEARCH type was explicitly enabled.
+[20:06:56] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] Accepted transaction 5b599d52-e8ee-41c3-b467-89e0094b308b
+[20:06:56] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered metrics collector: Research - PacketEvents Version
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] The module [STATISTIC___SERVER_SOFTWARE_BUILD_VERSION] requesting to processing your data off your local machine for usage [STATISTIC], the reason is: Spigot and Paper always release updates during their version support cycles. Counting the server-side software versions used by users lets us know which builds are popular. And it allows us to be more aggressive with newly added APIs, This can improve code maintainability, stability and program performance.. Transaction Id: c05f3cd5-ddb8-46c7-a8f8-cb7901652a1f
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [CHECK] Transaction c05f3cd5-ddb8-46c7-a8f8-cb7901652a1f was approved: `module` section not found but STATISTIC type was explicitly enabled.
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] Accepted transaction c05f3cd5-ddb8-46c7-a8f8-cb7901652a1f
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered metrics collector: Statistic - Server Software Build Version
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] The module [STATISTIC___PUBLISHER] requesting to processing your data off your local machine for usage [STATISTIC], the reason is: We count the name of the publisher (in BuildInfo) so that we know if someone else is recompiling our plugin without changing the fork name. if you are a QuickShop-Hikari fork developer, please change the return value of your getFork() to something else in order to separate it from the stats. This value is usually fixed to Ghost-chu@Hikari.. Transaction Id: e107d4ab-ccbc-4e01-a4cf-76312648c74f
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [CHECK] Transaction e107d4ab-ccbc-4e01-a4cf-76312648c74f was approved: `module` section not found but STATISTIC type was explicitly enabled.
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] Accepted transaction e107d4ab-ccbc-4e01-a4cf-76312648c74f
+[20:06:56] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered metrics collector: Statistic - Publisher
+[20:06:56] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] The module [RESEARCH___GEYSER] requesting to processing your data off your local machine for usage [RESEARCH], the reason is: We've released the Suspension Closure expansion for Geyser, but we're ultimately undecided about a Geyser-specific update. The data collected from this study allows us to analyze the QuickShop-Hikari user base to check if Geyser or Floodgate is installed, and with the percentage of users who have the statistics, we will decide whether to add support for Geyser GUIs and the like. We also welcome your feedback on our Discord server.. Transaction Id: ad3d04a2-0f29-45d9-8799-c9590af9d268
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [CHECK] Transaction ad3d04a2-0f29-45d9-8799-c9590af9d268 was approved: `module` section not found but RESEARCH type was explicitly enabled.
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [REVIEW] Accepted transaction ad3d04a2-0f29-45d9-8799-c9590af9d268
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered metrics collector: Research - Geyser
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] Loading player name and unique id mapping...
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] Loading translations (This may take a while)...
+[20:06:56] [Server thread/INFO]: [QuickShop-Hikari] Please wait us fetch the translation updates from Crowdin OTA service...
+[20:06:56] [Server thread/INFO]: [CrowdinOTA] Downloading Crowdin distribution manifest from remote server...
+[20:06:57] [Server thread/INFO]: [OTAFileInstance-0] Downloading translations for 0 locales...
+[20:06:57] [Server thread/INFO]: [OTAFileInstance-1] Downloading translations for 0 locales...
+[20:06:57] [Server thread/INFO]: [QuickShop-Hikari] Loading up translations from Crowdin OTA, this may need a while...
+[20:06:58] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Pending: [el_gr, it_it, ru_ru, pl_pl, ro_ro, af_za, tr_tr, hi_in, pt_br, th_th, fr_fr, he_il, ja_jp, cs_cz, sr_cyrl, ca_es, de_de, hu_hu, ar_sa, zh_hk, zh_tw, es_es, lang, nl_nl, sv_se, da_dk, fa_ir, bg_bg, fi_fi, sr_sp, vi_vn, ko_kr, en_us, lt_lt, uk_ua, zh_cn, no_no, pt_pt, zh_hk, hi_in, af_za, ca_es, en_us, lang, uk_ua, sr_cyrl, sr_sp, hu_hu, fr_fr, no_no, sv_se, lt_lt, zh_cn, ru_ru, vi_vn, ja_jp, zh_tw, cs_cz, pt_br, el_gr, fa_ir, da_dk, ko_kr, de_de, he_il, es_es, tr_tr, pl_pl, pt_pt, th_th, nl_nl, ar_sa, ro_ro, fi_fi, it_it, bg_bg]
+[20:06:58] [Server thread/INFO]: [QuickShop-Hikari] Loading up translations from Crowdin OTA, this may need a while...
+[20:06:58] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Pending: [el_gr, it_it, ru_ru, pl_pl, ro_ro, af_za, tr_tr, hi_in, pt_br, th_th, fr_fr, he_il, ja_jp, cs_cz, sr_cyrl, ca_es, de_de, hu_hu, ar_sa, zh_hk, zh_tw, es_es, lang, nl_nl, sv_se, da_dk, fa_ir, bg_bg, fi_fi, sr_sp, vi_vn, ko_kr, en_us, lt_lt, uk_ua, zh_cn, no_no, pt_pt, zh_hk, hi_in, af_za, ca_es, en_us, lang, uk_ua, sr_cyrl, sr_sp, hu_hu, fr_fr, no_no, sv_se, lt_lt, zh_cn, ru_ru, vi_vn, ja_jp, zh_tw, cs_cz, pt_br, el_gr, fa_ir, da_dk, ko_kr, de_de, he_il, es_es, tr_tr, pl_pl, pt_pt, th_th, nl_nl, ar_sa, ro_ro, fi_fi, it_it, bg_bg]
+[20:06:58] [Server thread/INFO]: [QuickShop-Hikari] Register InventoryWrapper...
+[20:06:58] [Server thread/INFO]: [QuickShop-Hikari] Initializing NexusManager...
+[20:06:58] [Server thread/INFO]: [QuickShop-Hikari] QuickShop Hikari - Early boot step - Complete
+[20:06:58] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> Complete (4167ms). Waiting for enable...
+[20:06:58] [Server thread/INFO]: [UmbraixJobs] Loading server plugin UmbraixJobs v1.2.0
+[20:06:58] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v0.1
+[20:06:58] [Server thread/INFO]: [BetterRTP] Loading server plugin BetterRTP v3.6.13
+[20:06:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:06:58] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[20:06:59] [Server thread/INFO]:         __    
+[20:06:59] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
+[20:06:59] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:06:59] [Server thread/INFO]: 
+[20:06:59] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:06:59] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:06:59] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:06:59] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1095ms)
+[20:06:59] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[20:06:59] [Server thread/INFO]: [Vault] Enabling Vault v1.5.3
+[20:07:00] [Server thread/INFO]: [Vault] Internal economy registered without depending on Vault.jar
+[20:07:00] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:07:00] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.10.0
+[20:07:01] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
+[20:07:01] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[20:07:01] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.5.3
+[20:07:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:07:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:07:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[20:07:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[20:07:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[20:07:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:07:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:07:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.10.0
+[20:07:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: fcb9320
+[20:07:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[20:07:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:07:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[20:07:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[20:07:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:07:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:07:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:07:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:07:01] [Server thread/INFO]: Preparing level "world"
+[20:07:01] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[20:07:01] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[20:07:01] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is up to date
+[20:07:02] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[20:07:02] [Server thread/INFO]: Preparing spawn area: 100%
+[20:07:02] [Server thread/INFO]: Prepared spawn area in 2 ms
+[20:07:02] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[20:07:02] [Server thread/INFO]: Prepared spawn area in 0 ms
+[20:07:02] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[20:07:02] [Server thread/INFO]: Preparing spawn area: 100%
+[20:07:02] [Server thread/INFO]: Prepared spawn area in 3 ms
+[20:07:02] [Server thread/INFO]: Done preparing level "world" (0.548s)
+[20:07:02] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.7.1
+[20:07:02] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
+[20:07:02] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.9.2-SNAPSHOT
+[20:07:03] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.7.1
+[20:07:03] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.2
+[20:07:03] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[20:07:03] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[20:07:03] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.11.2)
+[20:07:04] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[20:07:04] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:07:04] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[20:07:04] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[20:07:04] [Server thread/INFO]: [Essentials] Found 1 files to convert...
+[20:07:04] [Server thread/INFO]: [Essentials] Converted 0/1
+[20:07:04] [Server thread/INFO]: [Essentials] Ban format update complete.
+[20:07:04] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[20:07:04] [Server thread/INFO]: [Essentials] Done converting ignore list.
+[20:07:04] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[20:07:04] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
+[20:07:04] [Server thread/INFO]: [Essentials] Done converting mail list.
+[20:07:04] [Server thread/INFO]: [Essentials] #===========================================================================#
+[20:07:04] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
+[20:07:04] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
+[20:07:04] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
+[20:07:04] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
+[20:07:04] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
+[20:07:04] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
+[20:07:04] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
+[20:07:04] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[20:07:04] [Server thread/INFO]: [Essentials] 
+[20:07:04] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
+[20:07:04] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
+[20:07:04] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
+[20:07:04] [Server thread/INFO]: [Essentials] #===========================================================================#
+[20:07:04] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
+[20:07:04] [Server thread/INFO]: [Essentials] #===========================================================================#
+[20:07:04] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
+[20:07:04] [Server thread/INFO]: [Essentials] 
+[20:07:04] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
+[20:07:04] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
+[20:07:04] [Server thread/INFO]: [Essentials] 
+[20:07:04] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
+[20:07:04] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
+[20:07:04] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
+[20:07:04] [Server thread/INFO]: [Essentials]  to us on GitHub:
+[20:07:04] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[20:07:04] [Server thread/INFO]: [Essentials] #===========================================================================#
+[20:07:04] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[20:07:04] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[20:07:04] [Server thread/INFO]: [Essentials] Using locale en
+[20:07:05] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:07:05] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:07:05] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[20:07:05] [Server thread/INFO]: [GravesX] Enabling GravesX v4.9.10.10
+[20:07:05] [Server thread/INFO]: [GravesX] Loading Libraries for GravesX
+[20:07:05] [Server thread/WARN]: [GravesX] Paper v.1.21.11-99-81b9122 (MC: 1.21.11) detected. Using BukkitLibraryManager to download and load libraries.
+[20:07:07] [Server thread/INFO]: [GravesX] Finished Loading Libraries for GravesX.
+[20:07:07] [Server thread/INFO]: [GravesX] Integration: Hooked into Vault 1.5.3's permissions provider.
+[20:07:07] [Server thread/INFO]: [GravesX] Integration: Hooked into ProtocolLib 5.4.0.
+[20:07:07] [Server thread/INFO]: [GravesX] Integration: Hooked into MiniMessage.
+[20:07:07] [Server thread/WARN]: [GravesX] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions. This is not a bug.
+[20:07:07] [Server thread/WARN]: [GravesX] Compatibility: Paper or a Paper fork detected. To ensure holograms disappear correctly when looting graves, make sure 'armor-stands-tick' or 'armor-stands.tick' is set to true. This is not a bug.
+[20:07:07] [Server thread/INFO]: [GravesX] Integration: Hooked into LuckPerms 5.5.17.
+[20:07:07] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] Graves H2 - Starting...
+[20:07:07] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.pool.HikariPool] Graves H2 - Added connection conn0: url=jdbc:h2:file:/workspaces/Servidor-de-MC/servidor_minecraft/plugins/GravesX/data/graves.data user=SA
+[20:07:07] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] Graves H2 - Start completed.
+[20:07:07] [Server thread/WARN]: [GravesX] No SQLite database at plugins/GravesX/data/data.db; skipping migration.
+[20:07:07] [Server thread/INFO]: [GravesX] [Modules] Loading GravesX Modules...
+[20:07:07] [Server thread/INFO]: [GravesX] [Modules] Detected 0 module(s).
+[20:07:07] [Folia Async Scheduler Thread #3/INFO]: [GravesX] Loading grave maps...
+[20:07:07] [Folia Async Scheduler Thread #3/INFO]: [GravesX] Found 0 grave maps to load into cache.
+[20:07:07] [Folia Async Scheduler Thread #1/INFO]: [GravesX] Loading Block Map cache...
+[20:07:07] [Folia Async Scheduler Thread #1/INFO]: [GravesX] Queued 0 Blocks into the Block Map Cache (batched by chunk).
+[20:07:07] [Folia Async Scheduler Thread #5/INFO]: [GravesX] Loading Entity Map Cache for armorstand...
+[20:07:07] [Folia Async Scheduler Thread #5/INFO]: [GravesX] Loaded 0 entities into Entity Map Cache for armorstand.
+[20:07:07] [Folia Async Scheduler Thread #0/INFO]: [GravesX] Loading Holograms into Hologram Map Cache...
+[20:07:07] [Folia Async Scheduler Thread #0/INFO]: [GravesX] Loaded 0 Holograms into Hologram Map Cache.
+[20:07:07] [Folia Async Scheduler Thread #4/INFO]: [GravesX] Loading Entity Map Cache for itemframe...
+[20:07:07] [Folia Async Scheduler Thread #4/INFO]: [GravesX] Loaded 0 entities into Entity Map Cache for itemframe.
+[20:07:08] [Server thread/INFO]: [GravesX] Loading bStats Metrics Manager...
+[20:07:08] [Server thread/INFO]: [GravesX] bStats metrics loaded: https://bstats.org/plugin/bukkit/GravesX/23069
+[20:07:08] [Server thread/INFO]: [GravesX] bStats legacy metrics loaded: https://bstats.org/plugin/bukkit/Graves/12849
+[20:07:08] [Server thread/INFO]: [ToolStats] Enabling ToolStats v2.0
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Enabling QuickShop-Hikari v6.2.0.11
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> Execute the enable sequence
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] QuickShop Hikari
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) GUI Config Loading.
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) GUI Config Loaded. Menus: [trade, keeper, staff, history, browse]
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Registering Bukkit Service: com.ghostchu.quickshop.api.QuickShopProvider
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Starting plugin self-test, please wait...
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [OK] Spigot Based Server Test
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [Pass] Spigot Based Server Test: Server
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [OK] Old QuickShop Test
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [Pass] Old QuickShop Test: No old QuickShop jar installled on this server
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [OK] ModdedServer Based Test
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [Pass] ModdedServer Based Test: Server is unmodified.
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [OK] ModdedServer Database Driver Test
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [Pass] ModdedServer Database Driver Test: OK
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [OK] CoreSupport Test
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [Pass] CoreSupport Test: Check passed
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [OK] Virtual DisplayItem Support Test
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [Pass] Virtual DisplayItem Support Test: Passed checks
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: Virtual DisplayItem Support Test: Except stage: [AFTER_ON_ENABLE] Current stage: ON_ENABLE
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [OK] ProtocolLib Incorrect Locate Test
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [Pass] ProtocolLib Incorrect Locate Test: PluginClassLoader{plugin=ProtocolLib v5.4.0, pluginEnabled=true, url=plugins/ProtocolLib.jar}
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [OK] GameVersion supporting Test
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [Pass] GameVersion supporting Test: Check passed
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [OK] Permission Manager Test
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [Pass] Permission Manager Test: Check passed
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [OK] PacketListenerAPI Conflict Test
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [OK] Reremake Test
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [Pass] Reremake Test: Check passed
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [OK] EcoEnchants V11 Check
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [Pass] EcoEnchants V11 Check: Check passed
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [OK] End of life Test
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [Pass] End of life Test: Check passed
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Reading the configuration...
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Self Test] has finished in 28ms.
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [Pass] PacketListenerAPI Conflict Test: Check passed
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Contributors: Ghost_chu, PotatoCraft Studio, Netherfoam, Timtower, KaiNoMood (KaiKikuchi), sandtechnology, jho5245, cakoyo, Andre601, Ectabro, Chris6ix, portlek, log4b0at, deadman96385, tiararinne, DoctaEnkoda, CarmJos, YuanYuanOwO, Mgazul, mart-r, Tim269, raphtaliapt, creatorfromhell, LoneDev6, Steven-OS, confuxeon, ibmibmibm, judgetread, mfnalex, Warriorrrr, PyvesB, yannicklamprecht, ORelio, RMSCA, Starmism, yiwenwang2090, PaulBGD, Nlkomaru, harry0198, Draesia, Localized community members on Crowdin
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Original author: Netherfoam, Timtower, KaiNoMood, sandtechnology
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Let's start loading the plugin
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Rollbar error reporter success loaded.
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Error Reporter has been initialized.
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Setting up ItemExpressionRegistry...
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Using Virtual Displays. Attempting to initialize packet factory...
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Attempting to register chunk packet listeners...
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Attempting to load packet factory...
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Setting up database...
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registering JDBC H2 driver...
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Create database backup...
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Setting up H2 driver class name to: org.h2.Driver
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) HikariCP Config created with properties: {maxLifetime=1800000, minimumIdle=10, keepaliveTime=60000, prepStmtCacheSqlLimit=2048, useUnicode=true, allowPublicKeyRetrieval=true, idleTimeout=10000, cachePrepStmts=true, maximumPoolSize=10, characterEncoding=utf8, connectionTimeout=60000, prepStmtCacheSize=250}
+[20:07:08] [Server thread/INFO]: [com.ghostchu.quickshop.shade.carm.easysql.hikari.HikariDataSource] HikariPool-1 - Starting...
+[20:07:08] [Server thread/INFO]: [com.ghostchu.quickshop.shade.carm.easysql.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Creating table data with settings: ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Creating table shops with settings: ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Table creating:data
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Table creating:shop_map
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Table creating:shops
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Creating table metadata with settings: ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Table creating:message
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Creating table players with settings: ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Table creating:players
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Table creating:external_cache
+[20:07:08] [pool-16-thread-4/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Creating table message with settings: ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC
+[20:07:08] [pool-16-thread-3/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Creating table log_purchase with settings: ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Creating table shop_map with settings: ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Table creating:log_purchase
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Creating table log_transaction with settings: ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Creating table external_cache with settings: ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Table creating:metadata
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Creating table tags with settings: ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Table creating:log_transaction
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Creating table log_changes with settings: ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Table creating:tags
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Creating table log_others with settings: ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Table creating:log_others
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Checking and updating database columns, it may take a while...
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Table creating:log_changes
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Database upgrade script running... Current Database Version: 19
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Finished!
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Perform database schema upgrade] has finished in 29ms.
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The backup startup has been disabled in configuration.
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Initialize database] has finished in 281ms.
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Selected permission provider: Bukkit
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Permission loaded for group quickshop-hikari.everyone: quickshop-hikari.purchase, quickshop-hikari.show_information, quickshop-hikari.preview_shop, quickshop-hikari.search
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Permission loaded for group quickshop-hikari.blocked: 
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Permission loaded for group quickshop-hikari.staff: quickshop-hikari.purchase, quickshop-hikari.show_information, quickshop-hikari.preview_shop, quickshop-hikari.search, quickshop-hikari.access_inventory, quickshop-hikari.toggle_display, quickshop-hikari.set_shoptype, quickshop-hikari.set_price, quickshop-hikari.set_item, quickshop-hikari.set_stack_amount, quickshop-hikari.set_currency, quickshop-hikari.alert.receive, quickshop-hikari.set_benefit, quickshop-hikari.set_sign_type, quickshop-hikari.view_purchase_logs
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Permission loaded for group quickshop-hikari.administrator: quickshop-hikari.purchase, quickshop-hikari.show_information, quickshop-hikari.preview_shop, quickshop-hikari.search, quickshop-hikari.delete, quickshop-hikari.alert.receive, quickshop-hikari.access_inventory, quickshop-hikari.ownership_transfer, quickshop-hikari.management_permission, quickshop-hikari.toggle_display, quickshop-hikari.set_shoptype, quickshop-hikari.set_price, quickshop-hikari.set_item, quickshop-hikari.set_stack_amount, quickshop-hikari.set_currency, quickshop-hikari.set_name, quickshop-hikari.set_benefit, quickshop-hikari.set_sign_type, quickshop-hikari.view_purchase_logs
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Registering commands...
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Loading group configuration...
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Successfully added blacklist: [DYNAMIC] ignored_listener
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Loaded 1 rules for listener blacklist.
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] EventManager selected: QSEventManager
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: help - com.ghostchu.quickshop.command.subcommand.SubCommand_Help
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: unlimited - com.ghostchu.quickshop.command.subcommand.SubCommand_Unlimited
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: silentunlimited - com.ghostchu.quickshop.command.subcommand.silent.SubCommand_SilentUnlimited
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: transferall - com.ghostchu.quickshop.command.subcommand.SubCommand_TransferAll
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: transferownership - com.ghostchu.quickshop.command.subcommand.SubCommand_TransferOwnership
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: owner - com.ghostchu.quickshop.command.subcommand.SubCommand_SetOwner
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: setowner - com.ghostchu.quickshop.command.subcommand.SubCommand_SetOwner
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: amount - com.ghostchu.quickshop.command.subcommand.SubCommand_Amount
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: buy - com.ghostchu.quickshop.command.subcommand.SubCommand_Buy
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: sell - com.ghostchu.quickshop.command.subcommand.SubCommand_Sell
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: freeze - com.ghostchu.quickshop.command.subcommand.SubCommand_Freeze
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: silentbuy - com.ghostchu.quickshop.command.subcommand.silent.SubCommand_SilentBuy
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: silentsell - com.ghostchu.quickshop.command.subcommand.silent.SubCommand_SilentSell
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: silentfreeze - com.ghostchu.quickshop.command.subcommand.silent.SubCommand_SilentFreeze
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: price - com.ghostchu.quickshop.command.subcommand.SubCommand_Price
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: remove - com.ghostchu.quickshop.command.subcommand.SubCommand_Remove
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: silentremove - com.ghostchu.quickshop.command.subcommand.silent.SubCommand_SilentRemove
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: empty - com.ghostchu.quickshop.command.subcommand.SubCommand_Empty
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: refill - com.ghostchu.quickshop.command.subcommand.SubCommand_Refill
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: silentempty - com.ghostchu.quickshop.command.subcommand.silent.SubCommand_SilentEmpty
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: silentinventory - com.ghostchu.quickshop.command.subcommand.silent.SubCommand_SilentInventory
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: silentpreview - com.ghostchu.quickshop.command.subcommand.silent.SubCommand_SilentPreview
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: silenttoggledisplay - com.ghostchu.quickshop.command.subcommand.silent.SubCommand_SilentToggleDisplay
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: clean - com.ghostchu.quickshop.command.subcommand.SubCommand_Clean
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: reload - com.ghostchu.quickshop.command.subcommand.SubCommand_Reload
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: about - com.ghostchu.quickshop.command.subcommand.SubCommand_About
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: debug - com.ghostchu.quickshop.command.subcommand.SubCommand_Debug
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: fetchmessage - com.ghostchu.quickshop.command.subcommand.SubCommand_FetchMessage
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: info - com.ghostchu.quickshop.command.subcommand.SubCommand_Info
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: paste - com.ghostchu.quickshop.command.subcommand.SubCommand_Paste
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: staff - com.ghostchu.quickshop.command.subcommand.SubCommand_Staff
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: staffall - com.ghostchu.quickshop.command.subcommand.SubCommand_StaffAll
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: create - com.ghostchu.quickshop.command.subcommand.SubCommand_Create
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: find - com.ghostchu.quickshop.command.subcommand.SubCommand_Find
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: supercreate - com.ghostchu.quickshop.command.subcommand.SubCommand_SuperCreate
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: cleanghost - com.ghostchu.quickshop.command.subcommand.SubCommand_CleanGhost
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: reset - com.ghostchu.quickshop.command.subcommand.SubCommand_Reset
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: recovery - com.ghostchu.quickshop.command.subcommand.SubCommand_Recovery
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: export - com.ghostchu.quickshop.command.subcommand.SubCommand_Export
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: size - com.ghostchu.quickshop.command.subcommand.SubCommand_Size
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: item - com.ghostchu.quickshop.command.subcommand.SubCommand_Item
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: removeall - com.ghostchu.quickshop.command.subcommand.SubCommand_RemoveAll
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: name - com.ghostchu.quickshop.command.subcommand.SubCommand_Name
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: removeworld - com.ghostchu.quickshop.command.subcommand.SubCommand_RemoveWorld
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: currency - com.ghostchu.quickshop.command.subcommand.SubCommand_Currency
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: toggledisplay - com.ghostchu.quickshop.command.subcommand.SubCommand_ToggleDisplay
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: taxaccount - com.ghostchu.quickshop.command.subcommand.SubCommand_TaxAccount
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: toggledisplayall - com.ghostchu.quickshop.command.subcommand.SubCommand_ToggleDisplayAll
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: purge - com.ghostchu.quickshop.command.subcommand.SubCommand_Purge
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: lookup - com.ghostchu.quickshop.command.subcommand.SubCommand_Lookup
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: permission - com.ghostchu.quickshop.command.subcommand.SubCommand_Permission
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: database - com.ghostchu.quickshop.command.subcommand.SubCommand_Database
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: benefit - com.ghostchu.quickshop.command.subcommand.SubCommand_Benefit
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: browse - com.ghostchu.quickshop.command.subcommand.SubCommand_Browse
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: sign - com.ghostchu.quickshop.command.subcommand.SubCommand_Sign
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: history - com.ghostchu.quickshop.command.subcommand.SubCommand_History
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: silenthistory - com.ghostchu.quickshop.command.subcommand.silent.SubCommand_SilentHistory
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Registered subcommand: suggestprice - com.ghostchu.quickshop.command.subcommand.SubCommand_SuggestPrice
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) QuickShop command registered with those aliases: cshop, qs, shop, chestshop
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Shop cache SINGLE registered.
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Loading caching tax account...
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Loading built-in shop types.
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Shop cache INCLUDE_ATTACHED registered.
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Created new executor caching region for executor service: java.util.concurrent.ForkJoinPool@4865c72e[Running, parallelism = 16, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-5-worker-1/INFO] (FastPlayerFinder$PlayerFinderResolver#name2Uuid:318) The task [UniqueID Lookup - tax] has finished in 6ms.
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-5-worker-3/INFO] (FastPlayerFinder$BukkitFindUUIDTask#get:346) Lookup result: 333350c9-c230-30e4-b0a8-7c25bd88bf54
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-5-worker-2/INFO] (FastPlayerFinder$DatabaseFindUUIDTask#get:867) Lookup result: 333350c9-c230-30e4-b0a8-7c25bd88bf54
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Loading shops from database...
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Created new executor caching region for executor service: java.util.concurrent.ForkJoinPool@10675255[Running, parallelism = 2, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Reused java.util.concurrent.CompletableFuture@4649eedd[Not completed, 1 dependents] for uuid2Name lookup: uuid=cd4c5d96-4e29-3565-81ad-6036a844d25b, writeCache=true, executorService=java.util.concurrent.ForkJoinPool@10675255[Running, parallelism = 2, size = 1, active = 1, running = 0, steals = 0, tasks = 0, submissions = 1]
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Reused java.util.concurrent.CompletableFuture@4649eedd[Not completed, 2 dependents] for uuid2Name lookup: uuid=cd4c5d96-4e29-3565-81ad-6036a844d25b, writeCache=true, executorService=java.util.concurrent.ForkJoinPool@10675255[Running, parallelism = 2, size = 2, active = 2, running = 2, steals = 0, tasks = 0, submissions = 2]
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Reused java.util.concurrent.CompletableFuture@4649eedd[Not completed, 3 dependents] for uuid2Name lookup: uuid=cd4c5d96-4e29-3565-81ad-6036a844d25b, writeCache=true, executorService=java.util.concurrent.ForkJoinPool@10675255[Running, parallelism = 2, size = 2, active = 1, running = 1, steals = 0, tasks = 0, submissions = 2]
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Reused java.util.concurrent.CompletableFuture@4649eedd[Not completed, 4 dependents] for uuid2Name lookup: uuid=cd4c5d96-4e29-3565-81ad-6036a844d25b, writeCache=true, executorService=java.util.concurrent.ForkJoinPool@10675255[Running, parallelism = 2, size = 2, active = 1, running = 1, steals = 0, tasks = 0, submissions = 2]
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Reused java.util.concurrent.CompletableFuture@4649eedd[Not completed, 5 dependents] for uuid2Name lookup: uuid=cd4c5d96-4e29-3565-81ad-6036a844d25b, writeCache=true, executorService=java.util.concurrent.ForkJoinPool@10675255[Running, parallelism = 2, size = 2, active = 1, running = 1, steals = 0, tasks = 0, submissions = 2]
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Used 10ms to fetch 6 shops from database.
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Loading shops into memory...
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-6-worker-1/INFO] (FastPlayerFinder$DatabaseFindNameTask#get:830) Lookup result: soulzzzz
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-5-worker-1/INFO] (FastPlayerFinder$PlayerFinderResolver#name2Uuid:318) The task [Username Lookup - cd4c5d96-4e29-3565-81ad-6036a844d25b] has finished in 6ms.
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-6-worker-2/INFO] (FastPlayerFinder$BukkitFindNameTask#get:736) Lookup result: soulzzzz
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-8-worker-1/INFO] (ShopLoader$DataRawDatabaseInfo#<init>:356) Shop has correct encoded item type, loaded as usual.
+[20:07:08] [ForkJoinPool-8-worker-1/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-8-worker-1/INFO] (ShopLoader$DataRawDatabaseInfo#<init>:356) Shop loading completed: LOAD_AFTER_CHUNK_LOADED (cost 29 ms)
+[20:07:08] [ForkJoinPool-8-worker-1/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-8-worker-1/INFO] (ShopLoader$DataRawDatabaseInfo#<init>:356) Shop has correct encoded item type, loaded as usual.
+[20:07:08] [ForkJoinPool-8-worker-1/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-8-worker-1/INFO] (ShopLoader$DataRawDatabaseInfo#<init>:356) Shop loading completed: LOAD_AFTER_CHUNK_LOADED (cost 2 ms)
+[20:07:08] [ForkJoinPool-8-worker-1/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-8-worker-1/INFO] (ShopLoader$DataRawDatabaseInfo#<init>:356) Shop has correct encoded item type, loaded as usual.
+[20:07:08] [ForkJoinPool-8-worker-1/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-8-worker-1/INFO] (ShopLoader$DataRawDatabaseInfo#<init>:356) Shop loading completed: LOAD_AFTER_CHUNK_LOADED (cost 1 ms)
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-8-worker-1/INFO] (ShopLoader$DataRawDatabaseInfo#<init>:356) Shop has correct encoded item type, loaded as usual.
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-8-worker-1/INFO] (ShopLoader$DataRawDatabaseInfo#<init>:356) Shop loading completed: LOAD_AFTER_CHUNK_LOADED (cost 0 ms)
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-8-worker-1/INFO] (ShopLoader$DataRawDatabaseInfo#<init>:356) Shop has correct encoded item type, loaded as usual.
+[20:07:08] [ForkJoinPool-8-worker-1/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-8-worker-1/INFO] (ShopLoader$DataRawDatabaseInfo#<init>:356) Shop loading completed: LOAD_AFTER_CHUNK_LOADED (cost 1 ms)
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-8-worker-2/INFO] (ShopLoader$DataRawDatabaseInfo#<init>:356) Shop has correct encoded item type, loaded as usual.
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Used 40ms to load 0 shops into memory (6 shops will be loaded after chunks/world loaded).
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-8-worker-2/INFO] (ShopLoader$DataRawDatabaseInfo#<init>:356) Shop loading completed: LOAD_AFTER_CHUNK_LOADED (cost 0 ms)
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Registering listeners...
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) InteractionType Added: sneaking_right_click_container
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) InteractionType Added: standing_right_click_container
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) InteractionType Added: sneaking_left_click_container
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) InteractionType Added: sneaking_left_click_shopblock
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) InteractionType Added: standing_left_click_container
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) InteractionType Added: sneaking_right_click_shopblock
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) InteractionType Added: standing_right_click_shopblock
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) InteractionType Added: sneaking_left_click_sign
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) InteractionType Added: sneaking_right_click_sign
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) InteractionType Added: standing_left_click_sign
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) InteractionType Added: standing_left_click_shopblock
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Added: control_panel
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) InteractionType Added: standing_right_click_sign
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Added: trade_direct
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Added: control_panel_ui
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Added: trade_direct_all
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Added: trade_interaction
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Interaction Config Loading.
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Added: trade_ui
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Mapper: standing_left_click_sign -> TRADE_INTERACTION
+[20:07:08] [pool-16-thread-3/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Mapper: sneaking_left_click_shopblock -> NONE
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Mapper: standing_right_click_container -> NONE
+[20:07:08] [pool-16-thread-3/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Mapper: standing_right_click_sign -> CONTROL_PANEL
+[20:07:08] [pool-16-thread-1/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Mapper: standing_right_click_shopblock -> NONE
+[20:07:08] [pool-16-thread-6/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Mapper: sneaking_left_click_container -> NONE
+[20:07:08] [pool-16-thread-4/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Mapper: sneaking_right_click_shopblock -> NONE
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Mapper: sneaking_left_click_sign -> NONE
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Mapper: standing_left_click_container -> TRADE_INTERACTION
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Mapper: sneaking_right_click_container -> NONE
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Mapper: standing_left_click_shopblock -> TRADE_INTERACTION
+[20:07:08] [pool-16-thread-7/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Behavior Mapper: sneaking_right_click_sign -> NONE
+[20:07:08] [pool-16-thread-7/INFO]: [QuickShop-Hikari] [DEBUG] [ForkJoinPool-6-worker-1/INFO] (FastPlayerFinder$DatabaseFindNameTask#get:830) Lookup result: soulzzzz
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Cleaning MsgUtils...
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Cleaning purchase messages from the database that are over a week old...
+[20:07:08] [pool-16-thread-7/INFO]: [QuickShop-Hikari] [DEBUG] [pool-17-thread-1/INFO] (MsgUtil#lambda$clean$0:81) Cleaned 0 messages from the database
+[20:07:08] [pool-16-thread-7/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Scheduled economy system loading.
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Log actions is enabled. Actions will be logged in the qs.log file!
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [Shop Purger] Purge not enabled!
+[20:07:08] [pool-16-thread-7/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) DisplayItem selected: VIRTUALITEM
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: Old QuickShop Test: Except stage: [ON_ENABLE] Current stage: AFTER_ON_ENABLE
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: ModdedServer Based Test: Except stage: [ON_ENABLE] Current stage: AFTER_ON_ENABLE
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: ModdedServer Database Driver Test: Except stage: [ON_ENABLE] Current stage: AFTER_ON_ENABLE
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: CoreSupport Test: Except stage: [ON_ENABLE] Current stage: AFTER_ON_ENABLE
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: Virtual DisplayItem Support Test: Except stage: [ON_ENABLE] Current stage: AFTER_ON_ENABLE
+[20:07:08] [pool-16-thread-7/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: Spigot Based Server Test: Except stage: [ON_ENABLE] Current stage: AFTER_ON_ENABLE
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [OK] Virtual DisplayItem Support Test
+[20:07:08] [pool-16-thread-7/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) [Pass] Virtual DisplayItem Support Test: Passed checks
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: ProtocolLib Incorrect Locate Test: Except stage: [ON_ENABLE] Current stage: AFTER_ON_ENABLE
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: GameVersion supporting Test: Except stage: [ON_ENABLE] Current stage: AFTER_ON_ENABLE
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: Permission Manager Test: Except stage: [ON_ENABLE] Current stage: AFTER_ON_ENABLE
+[20:07:08] [pool-16-thread-4/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: PacketListenerAPI Conflict Test: Except stage: [ON_ENABLE] Current stage: AFTER_ON_ENABLE
+[20:07:08] [pool-16-thread-2/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: EcoEnchants V11 Check: Except stage: [ON_ENABLE] Current stage: AFTER_ON_ENABLE
+[20:07:08] [pool-16-thread-7/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: Reremake Test: Except stage: [ON_ENABLE] Current stage: AFTER_ON_ENABLE
+[20:07:08] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Skip test: End of life Test: Except stage: [ON_ENABLE] Current stage: AFTER_ON_ENABLE
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari] Initializing built-in hooks...
+[20:07:08] [pool-16-thread-7/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Self Test] has finished in 0ms.
+[20:07:08] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> All Complete. (843ms)
+[20:07:08] [pool-16-thread-7/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Successfully added blacklist: [DYNAMIC] ignored_listener
+[20:07:08] [Server thread/INFO]: [UmbraixJobs] Enabling UmbraixJobs v1.2.0
+[20:07:08] [Server thread/INFO]: ╔═════════════════════════════════════════════════════════╗
+[20:07:08] [Server thread/INFO]: ║                                                         ║
+[20:07:08] [Server thread/INFO]: ║   UmbraixJobs - v1.2.0                               ║
+[20:07:08] [Server thread/INFO]: ║   A high-performance, feature-rich Minecraft Jobs Plugin ║
+[20:07:08] [Server thread/INFO]: ║                                                         ║
+[20:07:08] [Server thread/INFO]: ║   Developed by: Prathmesh </> (prathmesh_pro)               ║
+[20:07:08] [Server thread/INFO]: ║   Part of: Team Umbraix                              ║
+[20:07:08] [Server thread/INFO]: ║                                                         ║
+[20:07:08] [Server thread/INFO]: ╚═════════════════════════════════════════════════════════╝
+[20:07:08] [Server thread/INFO]: [UmbraixJobs] Using Vault for economy support with provider: VaultEconomy
+[20:07:08] [Server thread/INFO]: [UmbraixJobs] Discord webhook integration is disabled in config.
+[20:07:08] [Server thread/INFO]: [UmbraixJobs] DiscordSRV not found. Integration disabled.
+[20:07:09] [Server thread/INFO]: [UmbraixJobs] Loaded job: Miner
+[20:07:09] [Server thread/INFO]: [UmbraixJobs] Loaded job: Farmer
+[20:07:09] [Server thread/INFO]: [UmbraixJobs] Loaded job: Hunter
+[20:07:09] [Server thread/INFO]: [UmbraixJobs] Loaded 3 jobs from config.
+[20:07:09] [Server thread/INFO]: [UmbraixJobs] Loaded mission template: Stone Miner
+[20:07:09] [Server thread/INFO]: [UmbraixJobs] Loaded mission template: Coal Collector
+[20:07:09] [Server thread/INFO]: [UmbraixJobs] Loaded mission template: Iron Miner
+[20:07:09] [Server thread/INFO]: [UmbraixJobs] Loaded mission template: Diamond Hunter
+[20:07:09] [Server thread/INFO]: [UmbraixJobs] Loaded mission template: Wheat Harvester
+[20:07:09] [Server thread/INFO]: [UmbraixJobs] Loaded mission template: Carrot Collector
+[20:07:09] [Server thread/INFO]: [UmbraixJobs] Loaded mission template: Potato Farmer
+[20:07:09] [Server thread/INFO]: [UmbraixJobs] Loaded mission template: Zombie Hunter
+[20:07:09] [Server thread/INFO]: [UmbraixJobs] Loaded mission template: Skeleton Hunter
+[20:07:09] [Server thread/INFO]: [UmbraixJobs] Loaded mission template: Creeper Hunter
+[20:07:09] [Server thread/INFO]: [UmbraixJobs] Loaded 10 mission templates.
+[20:07:09] [Server thread/INFO]: [UmbraixJobs] §b§lUmbraix§3§lJobs v1.2.0 has been enabled!
+[20:07:09] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Successfully added blacklist: [DYNAMIC] ignored_listener
+[20:07:09] [Server thread/INFO]: [SetHome] Enabling SetHome v0.1
+[20:07:09] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Successfully added blacklist: [DYNAMIC] ignored_listener
+[20:07:09] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.13
+[20:07:09] [Folia Async Scheduler Thread #4/INFO]: [ToolStats] Yay! You are running the lates version!
+[20:07:09] [Server thread/INFO]: [BetterRTP] Cooldown = 600
+[20:07:09] [pool-16-thread-7/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Successfully added blacklist: [DYNAMIC] ignored_listener
+[20:07:09] [Server thread/INFO]: [spark] Starting background profiler...
+[20:07:09] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:07:09] [Server thread/INFO]: [Geyser-Spigot] 
+[20:07:09] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.9.2-b1055 (git-master-2c0d6ed)
+[20:07:09] [Server thread/INFO]: [Geyser-Spigot] 
+[20:07:09] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:07:12] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[20:07:12] [Server thread/INFO]: [Geyser-Spigot] Done (3.115s)! Run /geyser help for help!
+[20:07:13] [ForkJoinPool.commonPool-worker-3/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 26.0. Download it here: https://geysermc.org/download
+[20:07:13] [pool-16-thread-7/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Successfully added blacklist: [DYNAMIC] ignored_listener
+[20:07:13] [Server thread/INFO]: Running delayed init tasks
+[20:07:13] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.5.3)!
+[20:07:13] [Craft Scheduler Thread - 4 - QuickShop-Hikari/INFO]: [QuickShop-Hikari] Start to caching usernames (async)...
+[20:07:13] [pool-16-thread-7/INFO]: [QuickShop-Hikari] [DEBUG] [Craft Scheduler Thread - 5 - QuickShop-Hikari/INFO] (AbstractShopManager#getAllShops:281) The task [Getting all shops] has finished in 0ms.
+[20:07:13] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Craft Scheduler Thread - 4 - QuickShop-Hikari/INFO] (FastPlayerFinder#bakeCaches:86) Loading usercache.json at /workspaces/Servidor-de-MC/servidor_minecraft/usercache.json
+[20:07:13] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:07:13] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[20:07:13] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Craft Scheduler Thread - 4 - QuickShop-Hikari/INFO] (FastPlayerFinder#bakeCaches:86) Caching 4 usernames into database...
+[20:07:13] [Craft Scheduler Thread - 4 - QuickShop-Hikari/INFO]: [QuickShop-Hikari] [DEBUG] [Craft Scheduler Thread - 4 - QuickShop-Hikari/INFO] (FastPlayerFinder#bakeCaches:86) Loaded 4 entries from usercache.json
+[20:07:13] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [pool-17-thread-1/INFO] (MsgUtil#lambda$clean$0:81) Username caches update successfully, total 0 records updated.
+[20:07:13] [Server thread/INFO]: [QuickShop-Hikari] Using economy system: VaultEconomy
+[20:07:13] [Server thread/INFO]: [QuickShop-Hikari] Selected economy bridge: BuiltIn-Vault
+[20:07:13] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Loading Economy Bridge] has finished in 6ms.
+[20:07:13] [Server thread/INFO]: Done (37.615s)! For help, type "help"
+[20:07:13] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Economy service listener was registered.
+[20:07:13] [Server thread/INFO]: [GravesX] Registering Soft Crash Handler...
+[20:07:13] [Server thread/INFO]: [GravesX] Registered Soft Crash Handler. Server will handle crashes in a separate thread. This does not work on hard crashes.
+[20:07:13] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 17 build(s) behind ***
+[20:07:13] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[20:07:13] [pool-16-thread-5/INFO]: [QuickShop-Hikari] [DEBUG] [Craft Scheduler Thread - 8 - QuickShop-Hikari/INFO] (NexusManager$NexusMetadata#parse:169) Parsed NexusMetadata: NexusManager.NexusMetadata(lastUpdate=20260217122808, latestVersion=6.2.0.11-RELEASE-CANDIDATE-4, releaseVersion=6.3.0.0-SNAPSHOT-2)
+[20:07:13] [Craft Scheduler Thread - 8 - QuickShop-Hikari/INFO]: [QuickShop-Hikari] A new version of QuickShop has been released! [6.3.0.0-SNAPSHOT-2]
+[20:07:13] [Craft Scheduler Thread - 8 - QuickShop-Hikari/INFO]: [QuickShop-Hikari] Update here: https://modrinth.com/plugin/quickshop-hikari
+[20:07:18] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Cannot look for updates: Read timed out
+[20:08:13] [User Authenticator #0/INFO]: UUID of player soulzzzz is cd4c5d96-4e29-3565-81ad-6036a844d25b
+[20:08:13] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, Essentials, ProtocolLib]
+[20:08:15] [pool-16-thread-8/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Locate inventory wrapper] has finished in 33ms.
+[20:08:15] [pool-16-thread-9/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Shop Inventory Locate] has finished in 33ms.
+[20:08:15] [pool-16-thread-9/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Shop Display Check] has finished in 27ms.
+[20:08:15] [pool-16-thread-9/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Locate inventory wrapper] has finished in 0ms.
+[20:08:15] [pool-16-thread-8/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Shop Inventory Locate] has finished in 0ms.
+[20:08:15] [pool-16-thread-8/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Shop Display Check] has finished in 0ms.
+[20:08:15] [pool-16-thread-8/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Locate inventory wrapper] has finished in 0ms.
+[20:08:15] [pool-16-thread-9/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Shop Inventory Locate] has finished in 0ms.
+[20:08:15] [pool-16-thread-9/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Shop Display Check] has finished in 0ms.
+[20:08:15] [pool-16-thread-9/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Locate inventory wrapper] has finished in 0ms.
+[20:08:15] [pool-16-thread-8/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Shop Inventory Locate] has finished in 0ms.
+[20:08:15] [pool-16-thread-8/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Shop Display Check] has finished in 0ms.
+[20:08:15] [pool-16-thread-8/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Locate inventory wrapper] has finished in 0ms.
+[20:08:15] [pool-16-thread-9/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Shop Inventory Locate] has finished in 0ms.
+[20:08:15] [pool-16-thread-9/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Shop Display Check] has finished in 0ms.
+[20:08:15] [pool-16-thread-9/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Locate inventory wrapper] has finished in 0ms.
+[20:08:15] [pool-16-thread-8/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Shop Inventory Locate] has finished in 0ms.
+[20:08:15] [pool-16-thread-8/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Shop Display Check] has finished in 0ms.
+[20:08:15] [pool-16-thread-9/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Load shops in chunk [world, X=24, Z=-13]] has finished in 69ms.
+[20:08:15] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) soulzzzz: quickshop.alerts->true
+[20:08:15] [Server thread/INFO]: soulzzzz joined the game
+[20:08:15] [Server thread/INFO]: soulzzzz[/127.176.252.94:57487] logged in with entity id 1 at ([world]388.6816688992822, 71.49314823739232, -195.1953128027296)
+[20:11:02] [Server thread/INFO]: soulzzzz issued server command: /pl
+[20:11:08] [Server thread/INFO]: soulzzzz issued server command: /vault
+[20:11:22] [Server thread/INFO]: soulzzzz issued server command: /jobs gui
+[20:11:27] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[20:11:40] [Server thread/INFO]: soulzzzz issued server command: /jobs join miner
+[20:11:48] [Server thread/INFO]: soulzzzz issued server command: /jobs prestige
+[20:11:59] [Server thread/INFO]: soulzzzz issued server command: /jobs team
+[20:12:04] [pool-16-thread-10/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Interaction: InteractionBehavior is empty
+[20:12:05] [pool-16-thread-10/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Interaction: InteractionBehavior is empty
+[20:12:06] [pool-16-thread-10/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Interaction: InteractionBehavior is empty
+[20:12:13] [Server thread/INFO]: [UmbraixJobs] Saving job data for 1 players...
+[20:12:13] [Server thread/INFO]: [UmbraixJobs] Saved all player data, missions, and teams.
+[20:12:13] [pool-16-thread-10/INFO]: [QuickShop-Hikari] [DEBUG] [Craft Scheduler Thread - 22 - QuickShop-Hikari/INFO] (AbstractShopManager#getAllShops:281) The task [Getting all shops] has finished in 0ms.
+[20:12:53] [pool-16-thread-10/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Getting all shops] has finished in 0ms.
+[20:13:43] [Server thread/INFO]: soulzzzz lost connection: Disconnected
+[20:13:43] [Server thread/INFO]: soulzzzz left the game
+[20:13:53] [pool-16-thread-10/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Unload shops in chunk CraftChunk{x=24z=-13}] has finished in 1ms.
+[20:13:53] [pool-16-thread-10/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Unload shops in chunk CraftChunk{x=24z=-13}] has finished in 0ms.
+[20:13:53] [pool-16-thread-11/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Unload shops in chunk CraftChunk{x=24z=-13}] has finished in 0ms.
+[20:13:53] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Unload shops in chunk CraftChunk{x=24z=-13}] has finished in 0ms.
+[20:13:53] [Server thread/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Unload shops in chunk CraftChunk{x=24z=-13}] has finished in 0ms.
+[20:13:53] [pool-16-thread-10/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Unload shops in chunk CraftChunk{x=24z=-13}] has finished in 0ms.
+[20:13:56] [Server thread/INFO]: Stopping the server
+[20:13:56] [Server thread/INFO]: Stopping server
+[20:13:56] [pool-16-thread-10/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Successfully added blacklist: [DYNAMIC] ignored_listener
+[20:13:56] [Server thread/INFO]: [SetHome] Disabling SetHome v0.1
+[20:13:56] [pool-16-thread-10/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Successfully added blacklist: [DYNAMIC] ignored_listener
+[20:13:56] [Server thread/INFO]: [UmbraixJobs] Disabling UmbraixJobs v1.2.0
+[20:13:56] [Server thread/INFO]: [UmbraixJobs] Saving job data for 1 players...
+[20:13:56] [pool-16-thread-10/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Successfully added blacklist: [DYNAMIC] ignored_listener
+[20:13:56] [Server thread/INFO]: [UmbraixJobs] §b§lUmbraix§3§lJobs v1.2.0 has been disabled!
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] Disabling QuickShop-Hikari v6.2.0.11
+[20:13:56] [pool-16-thread-10/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Successfully added blacklist: [DYNAMIC] ignored_listener
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> Execute the shutdown sequence
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] QuickShop is finishing remaining work, this may need a while...
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] Shutting down error reporter...
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] Unloading all loaded shops...
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] Stopping shop auto save...
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] Saving all in-memory changed shops...
+[20:13:56] [pool-16-thread-10/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Getting all shops] has finished in 0ms.
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] Shops needed saved: 0
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] Cleaning up shop manager...
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] Unloading loaded shops...
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] Saving shops, please allow up to 30 seconds for flush changes into database...
+[20:13:56] [pool-16-thread-10/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) The task [Getting all shops] has finished in 0ms.
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] Cleaning up display manager...
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] Stopping log watcher...
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] Shutting down scheduled timers...
+[20:13:56] [pool-16-thread-10/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Unregistering the packet listener...
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] Shutting down event calendar watcher...
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] Shutting down update watcher...
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] Shutting down 3rd-party integrations...
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari] Shutting down database connections...
+[20:13:56] [pool-16-thread-10/INFO]: [QuickShop-Hikari] [DEBUG] [Server thread/INFO] (QuickShopBukkit$UnirestLibLoader#<init>:326) Unregistering the packet listener...
+[20:13:56] [Server thread/INFO]: [com.ghostchu.quickshop.shade.carm.easysql.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[20:13:56] [Server thread/INFO]: [com.ghostchu.quickshop.shade.carm.easysql.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Cleaning up resources...
+[20:13:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> All Complete (91ms)
+[20:13:56] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.5.3
+[20:13:56] [Server thread/INFO]: [ToolStats] Disabling ToolStats v2.0
+[20:13:56] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.10.0
+[20:13:56] [Server thread/INFO]: [GravesX] Disabling GravesX v4.9.10.10
+[20:13:56] [Server thread/INFO]: [GravesX] [Modules] Disabling modules...
+[20:13:56] [Server thread/INFO]: [GravesX] [Modules] All modules have been disabled. Running remaining shutdown tasks.
+[20:13:56] [Server thread/INFO]: [GravesX] Saving Grave inventories before shutting down...
+[20:13:56] [Server thread/INFO]: [GravesX] Grave inventories saved.
+[20:13:56] [Server thread/INFO]: [GravesX] Shutting Down GravesX...
+[20:13:56] [Server thread/INFO]: [GravesX] Unloading and Shutting Down DataManager...
+[20:13:56] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] Graves H2 - Shutdown initiated...
+[20:13:56] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] Graves H2 - Shutdown completed.
+[20:13:56] [Server thread/INFO]: [GravesX] Unloaded DataManager Successfully.
+[20:13:56] [Server thread/INFO]: [GravesX] Unloading GraveManager...
+[20:13:56] [Server thread/INFO]: [GravesX] Unloaded GraveManager Successfully.
+[20:13:56] [Server thread/INFO]: [GravesX] Unloading IntegrationManager...
+[20:13:56] [Server thread/INFO]: [GravesX] Unloaded IntegrationManager Successfully.
+[20:13:56] [Server thread/INFO]: [GravesX] Unloading RecipeManager...
+[20:13:56] [Server thread/INFO]: [GravesX] Unloaded RecipeManager Successfully.
+[20:13:56] [Server thread/INFO]: [GravesX] Unloading DebugManager...
+[20:13:56] [Server thread/INFO]: [GravesX] Unloaded DebugManager Successfully.
+[20:13:56] [Server thread/INFO]: [GravesX] Shutting down SchedulerManager...
+[20:13:56] [Server thread/INFO]: [GravesX] Shutting down SchedulerManager Successfully.
+[20:13:56] [Server thread/INFO]: [GravesX] Shutdown Completed :)
+[20:13:56] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
+[20:13:56] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.2
+[20:13:56] [Server thread/INFO]: [Vault] Disabling Vault v1.5.3
+[20:13:56] [Server thread/INFO]: [Vault] Vault (internal economy) disabled.
+[20:13:56] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.7.1
+[20:13:56] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[20:13:56] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.9.2-SNAPSHOT
+[20:13:56] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[20:13:57] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[20:13:57] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
+[20:13:57] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:13:57] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:13:57] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:13:57] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.7.1
+[20:13:57] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[20:13:57] [Server thread/INFO]: Saving players
+[20:13:57] [Server thread/INFO]: Saving worlds
+[20:13:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[20:13:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[20:13:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[20:13:57] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[20:13:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:13:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:13:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:13:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:13:57] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[20:13:57] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[20:13:57] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[20:13:57] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
